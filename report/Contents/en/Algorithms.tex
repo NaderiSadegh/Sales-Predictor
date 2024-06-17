@@ -1,0 +1,356 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% $Author: Deepti Hegde $
+% $Datum: 2023-04-24  $
+% $Pfad: BA23-02-Sales-Predictor/report/Contents/en/Introduction.tex $
+% $Version: 1.0 $
+% $Reviewed by: Deepti, Sadegh and Raunak $
+% $Review Date: 2023-05-05 $
+%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{Algorithms}
+
+%\cite{Wat:2017a,Wat:2017b,Wat:2017c,Wat:2017d,Wat:2017e,Wat:2017f}
+A massive dataset can be mined for hidden patterns, trends, and relationships using a variety of methods, including machine learning, statistical analysis, and pattern recognition. Businesses may more accurately estimate sales success and make more educated decisions about their operations by utilising the algorithms.\cite{Cheriyan:2018} \bigskip
+
+The algorithms are mathematical models that forecast future sales performance using historical sales data and other relevant characteristics.\cite{tsoumakas:2019}
+Here are a few standard instances:
+
+\section{Linear Regression}
+
+A scalar dependent variable y and one or more explanatory variables (or independent variables) designated X are modelled as a relationship using the linear approach known as linear regression. Simple linear regression is used when there is only one explanatory variable. several linear regression is the procedure used when there are several explanatory variables.
+Linear Regression can be applied to a wide range of retail forecasting tasks such as predicting sales volume, predicting revenue, identifying customer demand patterns, identifying inventory management trends, and improving supply chain management. \cite{Cheriyan:2018} \bigskip
+
+The least squares approach is frequently used to fit linear regression models, but there are other approaches as well, such as minimising the "lack of fit" in another norm (as with least absolute deviations regression) or minimising a penalised version of the least squares cost function (as with ridge regression and lasso, which both have L2-norm penalties and L1-norm penalties).
+Example code for the sales forecasting using Linear regression algorithm. 
+
+\begin{lstlisting}[language=Python]
+# Fit the linear model
+model = linear_model.LinearRegression()
+results = model.fit(X_train, y_train)
+print(results)
+OutPut: 
+LinearRegression(copy$_$X=True, 
+fit$_$intercept=True,n$_$jobs=1,normalize=False)
+
+\end{lstlisting}
+
+	\subsection{Checking for VIF for eliminating multicollinearity and overfitting}
+	
+	\begin{lstlisting}[language=Python]
+#Implementing VIF (Variance Inflation Factor) to 
+ check whether the selected independent variables 
+ are correct for prediction 
+#or not. Also, 'item_nbr', 'perishable' and 'dcoilwtico'
+ had very close levels of co-relation with price which 
+ makes us to investigate
+ whether all 
+#three are important or not.
+indep=['dcoilwtico','perishable','item_nbr','store_nbr'
+,'cluster']
+X=Salesdf[indep] 
+
+
+from statsmodels.stats.outliers_influence import 
+variance_inflation_factor  
+thresh=10 #Setting a threshold of 10 as a sign of serious 
+and sever multi-collinearity
+
+for i in np.arange(0,len(indep)):
+vif=[variance_inflation_factor(X[indep].values,ix)
+for ix in range(X[indep].shape[1])]
+maxloc=vif.index(max(vif))
+
+if max(vif) > thresh:
+print ("vif :", vif)
+print( X[indep].columns[maxloc] )
+del indep[maxloc]
+	
+else:
+break
+print ('Final variables: ', indep) 
+	
+OutPut:
+vif : [11.526623747491566, 1.3507403432685345, 
+ 4.9699125171435918, 4.0093263521352034, 
+ 4.6349900352112581]
+dcoilwtico
+		
+Final variables:  ['perishable', 'item_nbr', 'store_nbr'
+, 'cluster']
+	\end{lstlisting}
+
+	\subsection{Cross Validation using Scikit Learn}
+	\begin{lstlisting}[language=Python]
+reg=linear_model.LinearRegression()
+cv_results=cross_val_score(reg,X_train,y_train,cv=5)
+print(cv_results)
+print(np.mean(cv_results))
+print(np.std(cv_results))
+#Using cross validation of score 5 \bigskip
+	
+OutPut:
+[ 0.41958907  0.42895752  0.39221205  0.20780525  
+0.27409657]
+0.344532091925
+0.0879658700132
+	\end{lstlisting}
+
+\section{DecisionTree Regressor}
+
+A decision tree is a graphical representation of specific decision situations that are used when complex branching occurs in a structured decision process. A decision tree is a predictive model based on a branching series of Boolean tests that use specific facts to make more generalized conclusions. The main components of a decision tree involve decision points represented by nodes, actions, and specific choices from a decision point. Each rule within a decision tree is represented by tracing a series of paths from root to node to the next node and so on until an action is reached.\cite{thomassey:2006}
+
+	\begin{lstlisting}[language=Python]
+dtr=DecisionTreeRegressor(max_depth=10,
+min_samples_leaf=5,
+max_leaf_nodes=5)
+
+dtr.fit(X_train,y_train)
+y_pred=dtr.predict(X_test)
+
+print('R2 score = ',r2_score(y_test, y_pred), '/ 1.0')
+print('MSE score = ',mean_squared_error(y_test, y_pred),
+ '/ 0.0')
+
+#using a decision tree greatly improves the accurancy 
+of model prediction.
+
+OutPut:
+R2 score =  0.705856948908 / 1.0
+MSE score =  0.000293228502691 / 0.0
+\end{lstlisting}
+
+%\begin{itemize}
+%    \item points (\MapleCommand{MPoint})
+%    \item lines (\MapleCommand{MLine})
+%    \item arcs (\MapleCommand{MArc})
+%    \item Bézier curves (\MapleCommand{Bezier})
+%    \item polygon courses (\MapleCommand{MPolygon})
+%    \item Geometry List (\MapleCommand{MGeoList})
+%    \item Hermite problems (\MapleCommand{MHermiteProblem})
+%    \item Symmetric Hermite Problems (\MapleCommand{MHermiteProblemSym})
+%\end{itemize}
+
+
+\section{ExtraTreesRegressor}
+
+ExtraTreesRegressor is a supervised machine learning algorithm that belongs to the family of decision trees. It generates a vast number of uncorrelated decision trees, which are then averaged to produce a final forecast. For each of the maxfeatures randomly picked features, random splits are created, and the best split among them is selected in order to divide the samples of a node into two groups.\cite{irshada:2023}  \bigskip
+
+ExtraTreesRegressor can be used to estimate sales volume, revenue, consumer demand patterns, inventory management trends, and supply chain management improvements, among many other retail forecasting jobs.
+
+\begin{lstlisting}[language=Python]
+etr = ExtraTreesRegressor()
+
+# Choose some parameter combinations to try
+
+parameters = {'n_estimators': [5,10,100],
+	'criterion': ['mse'],
+	'max_depth': [5,10,15], 
+	'min_samples_split': [2,5,10],
+	'min_samples_leaf': [1,5]
+}
+
+# Determines the cross-validation splitting strategy 
+ /to specify the number of folds in a (Stratified)KFold
+
+grid_obj = GridSearchCV(etr, parameters,
+cv=3, 
+n_jobs=-1, #Number of jobs to run in parallel
+verbose=1)
+grid_obj = grid_obj.fit(X_train, y_train)
+
+# Set the clf to the best combination of parameters
+etr = grid_obj.best_estimator_
+
+# Fit the best algorithm to the data. 
+etr.fit(X_train, y_train)
+
+y_pred = etr.predict(X_test)
+
+print('R2 score = ',r2_score(y_test, y_pred), '/ 1.0')
+print('MSE score = ',mean_squared_error(y_test, y_pred),
+ '/ 0.0')
+	
+OutPut:	
+R2 score =  0.826619399995 / 1.0
+MSE score =  0.000172841525735 / 0.0
+\end{lstlisting}
+%\bigskip
+%\medskip
+
+%\MapleCommand{[MVPOINT,[x,y]]}
+
+%\medskip
+%
+%The creation of a point then takes place via a procedure \MapleCommand{New}:
+%
+%\medskip
+%
+%\MapleCommand{NeuerPunkt := MPoint:-New(10,15);}
+%
+%\medskip
+%
+%When called up in the test file, the following is then output:
+% 
+%\medskip
+%
+%\MapleCommand{TestPO := ["Point",[10,15]]}
+%
+%\medskip
+
+
+
+\section{Random Forest Regressor}
+A random forest is a ensemble machine learning approach that learns a large numbers of random decision trees analyzing sets of variables. The classes predicted by each of the decision trees are then aggregated in some manner to arrive at the final prediction. The random forest classification model is an ensemble approach that can also be thought of as a form of nearest neighbor predictor. Ensembles are a divide-and-conquer approach used to improve performance. The main principle behind ensemble methods is that a group of “weak learners” can come together to form a “strong learner”. \cite{vceh:2018} \bigskip
+
+The random forest starts with a standard machine learning technique called a “decision tree” which, in ensemble terms, corresponds to our weak learner. In a decision tree, an input is entered at the top and as it traverses down the tree the data gets bucketed into smaller and smaller sets. The random forest takes this notion to the next level by combining trees with the
+notion of an ensemble. Thus, in ensemble terms, the trees are weak learners, and the random forest is a strong learner.
+
+\begin{lstlisting}[language=Python]
+# Choose the type of classifier. 
+RFR = RandomForestRegressor()
+
+# Choose some parameter combinations to try
+parameters = {'n_estimators': [5, 10, 100],
+	'min_samples_leaf': [1,5]
+}
+
+
+#We have to use RandomForestRegressor's own scorer 
+ (which is R^2 score)
+
+#Determines the cross-validation splitting strategy 
+ /to specify the number of folds in a (Stratified)KFold
+grid_obj = GridSearchCV(RFR, parameters,
+cv=5, 
+n_jobs=-1, #Number of jobs to run in parallel
+verbose=1)
+grid_obj = grid_obj.fit(X_train, y_train)
+
+# Set the clf to the best combination of parameters
+RFR = grid_obj.best_estimator_
+
+# Fit the best algorithm to the data. 
+RFR.fit(X_train, y_train)
+
+y_pred = RFR.predict(X_test)
+
+print('R2 score = ',r2_score(y_test, y_pred), '/ 1.0')
+print('MSE score = ',mean_squared_error(y_test, y_pred)
+, '/ 0.0')
+
+OutPut:
+R2 score =  0.794068854354 / 1.0
+MSE score =  0.000205290865349 / 0.0	
+\end{lstlisting}
+%\begin{alltt}
+%\MapleCommand{
+%
+%Angle := proc(P)
+%
+%\end{alltt}
+
+%\bigskip
+%
+%\underline{structure:}
+%
+%\bigskip
+
+\section{Gradient Boosting Regressor}
+
+The question of whether a poor learner may be improved gave rise to the concept of boosting. One who performs at least marginally better than chance is said to have a weak hypothesis or weak learning. The aim behind hypothesis boosting was to filter observations, keeping only those that the weak learner could manage, and concentrating on creating new weak learns to handle the remaining challenging observations.\bigskip
+
+It excels at handling intricate data patterns and producing precise forecasts. The number of estimators, learning rate, maximum depth of each tree, and minimum number of samples necessary to divide an internal node are examples of hyperparameters. The output is a model that may be used to make predictions on new data, whereas the input is a dataset comprising independent variables and a corresponding target variable.\cite{jain:2015} \bigskip
+
+Gradient boosting involves three elements:
+\begin{itemize}
+\item A loss function to be optimized.
+\item A weak learner to make predictions.
+\item An additive model to add weak learners to minimize the loss function.
+\end{itemize}
+
+\begin{lstlisting}[language=Python]
+#gbr = GradientBoostingRegressor(loss='huber',
+learning_rate=0.3,
+n_estimators=100,max_depth=5,min_samples_split=3)
+gbr=GradientBoostingRegressor()
+
+parameters = {'n_estimators': [5,10],
+	'loss':['huber'],
+	'criterion': ['mse'],
+	'max_depth': [5,10], 
+	'min_samples_split': [2,5],
+	'min_samples_leaf': [1,5]
+}
+	
+#Determines the cross-validation splitting strategy 
+/to specify the number of folds in a (Stratified)KFold
+grid_obj = GridSearchCV(gbr, parameters,
+cv=5, 
+n_jobs=-1, #Number of jobs to run in parallel
+verbose=1)
+grid_obj = grid_obj.fit(X_train, y_train)
+
+# Set the clf to the best combination of parameters
+gbr = grid_obj.best_estimator_
+
+# Fit the best algorithm to the data. 
+gbr.fit(X_train, y_train)
+
+y_pred = gbr.predict(X_test)
+
+print('R2 score using Gradient Boosting= ',r2_score
+(y_test, y_pred), '/ 1.0')
+print('MSE score using Gradient Boosting= 
+',mean_squared_error(
+y_test, y_pred), '/ 0.0')
+
+OutPut:
+R2 score using Gradient Boosting=  0.501852330509 / 1.0
+MSE score using Gradient Boosting=  0.000496598830744 / 0.0
+\end{lstlisting}
+
+\section{XGBOOST}
+
+XGBoost, short for, extreme Gradient Boost is another ensemble technique used for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees. It builds the model in a stage wise fashion like other boosting methods do, and it generalizes them by allowing optimization of an arbitrary differentiable loss function.\cite{xia:2020} \bigskip
+
+Main advantages are as follows:
+\begin{itemize}
+\item Easy to use
+\item Computational efficiency
+\item Model Accuracy
+\item Feasibility easy to tune parameters and modify objectives
+\end{itemize}
+\begin{lstlisting}[language=Python]
+model=XGBRegressor(max_depth=5)
+In [69]:
+model.fit(X_train,y_train)
+Out[69]:
+XGBRegressor(base_score=0.5, booster='gbtree', 
+colsample_bylevel=1,
+colsample_bytree=1, gamma=0, learning_rate=0.1, 
+max_delta_step=0,
+max_depth=5, min_child_weight=1, missing=None, 
+n_estimators=100,
+n_jobs=1, nthread=None, objective='reg:linear', 
+random_state=0,
+reg_alpha=0, reg_lambda=1, scale_pos_weight=1, 
+seed=None,
+silent=True, subsample=1)
+In [70]:
+y_pred=model.predict(X_test)
+In [71]:
+print('R2 score using XG Boost= ',r2_score(y_test, y_pred)
+, '/ 1.0')
+print('MSE score using XG Boost= ',
+mean_squared_error(y_test, y_pred), '/ 0.0')
+	
+OutPut:
+R2 score using XG Boost=  0.797564020916 / 1.0
+MSE score using XG Boost=  0.000201806565945 / 0.0
+	
+\end{lstlisting}
+
+

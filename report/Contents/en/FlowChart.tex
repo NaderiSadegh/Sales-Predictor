@@ -1,0 +1,882 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% $Author: Sadegh Naderi $
+% $Datum: 2023-07-2  $
+% $Pfad: BA23-02-Sales-Predictor/report/Contents/en/Introduction.tex $
+% $Version: 1.0 $
+% $Reviewed by: Deepti, Sadegh and Raunak $
+% $Review Date: 2023-07-03 $
+%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{Sale Prediction FlowChart}
+
+The steps that are taken to forecast future sales trends are shown in the flow chart for the sales prediction process utilising regression model fitting techniques. Data from numerous sources, including transactional data, customer data, and external data like social media feeds or market reports, are first gathered. Data is collected, cleansed, and formatted after which it is prepared for analysis. The identification of the traits or variables that are most likely to have an impact on the forecasting of sales comes next.\bigskip
+
+As a result, the data's dimensionality reduces and the model's accuracy is improved. The data are then used to train and evaluate the algorithm, ensuring its accuracy. The trained fitted model is then used to forecast future sales trends, which can be utilised to inform company decisions. For companies trying to make data-driven decisions and stay ahead of the competition, the flow chart for the sales forecast process utilising algorithms is a crucial tool.
+
+\newpage
+
+\definecolor{color_29791}{rgb}{0,0,0}
+\definecolor{color_236041}{rgb}{0.811765,0.894118,1}
+\definecolor{color_87618}{rgb}{0.227451,0.254902,0.290196}
+\definecolor{color_282664}{rgb}{1,0.968628,0.631373}
+\definecolor{color_274709}{rgb}{0.972549,0.807843,0.8}
+\definecolor{color_209299}{rgb}{0.721569,0.329412,0.313726}
+\definecolor{color_241888}{rgb}{0.835294,0.909804,0.831373}
+\definecolor{color_160372}{rgb}{0.509804,0.701961,0.4}
+\definecolor{color_37668}{rgb}{0.019608,0.388235,0.011765}
+%\begin{figure}
+\begin{center}
+
+\centering
+\begin{tikzpicture}[overlay]
+	\path(0pt,0pt);
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -94.5pt) -- (78.75pt, -94.5pt)
+	-- (78.75pt, -94.5pt)
+	-- (78.75pt, -104.7225pt)
+	;
+	\filldraw[color_29791][nonzero rule]
+	(78.75pt, -108.66pt) -- (78.75pt, -108.66pt)
+	-- (78.75pt, -108.66pt)
+	-- (76.125pt, -103.41pt)
+	-- (76.125pt, -103.41pt)
+	-- (78.75pt, -104.7225pt)
+	-- (78.75pt, -104.7225pt)
+	-- (81.375pt, -103.41pt) -- cycle
+	;
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -108.66pt) -- (78.75pt, -108.66pt)
+	-- (78.75pt, -108.66pt)
+	-- (76.125pt, -103.41pt)
+	-- (76.125pt, -103.41pt)
+	-- (78.75pt, -104.7225pt)
+	-- (78.75pt, -104.7225pt)
+	-- (81.375pt, -103.41pt) -- cycle
+	;
+	\filldraw[color_236041][nonzero rule]
+	(7.5pt, -51.1875pt) .. controls (7.5pt, -50.25549pt) and (8.25552pt, -49.5pt) .. (9.1875pt, -49.5pt)
+	-- (9.1875pt, -49.5pt)
+	-- (9.1875pt, -49.5pt)
+	-- (9.1875pt, -49.5pt)
+	-- (148.3125pt, -49.5pt)
+	-- (148.3125pt, -49.5pt)
+	-- (148.3125pt, -49.5pt)
+	-- (148.3125pt, -49.5pt) .. controls (149.2445pt, -49.5pt) and (150pt, -50.25549pt) .. (150pt, -51.1875pt)
+	-- (150pt, -51.1875pt)
+	-- (148.3125pt, -49.5pt)
+	-- (148.3125pt, -49.5pt) .. controls (149.2445pt, -49.5pt) and (150pt, -50.25549pt) .. (150pt, -51.1875pt)
+	-- (150pt, -51.1875pt)
+	-- (150pt, -51.1875pt)
+	-- (150pt, -51.1875pt)
+	-- (150pt, -92.8125pt)
+	-- (150pt, -92.8125pt)
+	-- (150pt, -92.8125pt)
+	-- (150pt, -92.8125pt) .. controls (150pt, -93.74448pt) and (149.2445pt, -94.5pt) .. (148.3125pt, -94.5pt)
+	-- (148.3125pt, -94.5pt)
+	-- (150pt, -92.8125pt)
+	-- (150pt, -92.8125pt) .. controls (150pt, -93.74448pt) and (149.2445pt, -94.5pt) .. (148.3125pt, -94.5pt)
+	-- (148.3125pt, -94.5pt)
+	-- (148.3125pt, -94.5pt)
+	-- (148.3125pt, -94.5pt)
+	-- (9.1875pt, -94.5pt)
+	-- (9.1875pt, -94.5pt)
+	-- (9.1875pt, -94.5pt)
+	-- (9.1875pt, -94.5pt) .. controls (8.25552pt, -94.5pt) and (7.5pt, -93.74448pt) .. (7.5pt, -92.8125pt)
+	-- (7.5pt, -92.8125pt)
+	-- (9.1875pt, -94.5pt)
+	-- (9.1875pt, -94.5pt) .. controls (8.25552pt, -94.5pt) and (7.5pt, -93.74448pt) .. (7.5pt, -92.8125pt)
+	-- (7.5pt, -92.8125pt)
+	-- (7.5pt, -92.8125pt)
+	-- (7.5pt, -92.8125pt)
+	-- (7.5pt, -51.1875pt)
+	-- (7.5pt, -51.1875pt)
+	-- (7.5pt, -51.1875pt)
+	-- (7.5pt, -51.1875pt) .. controls (7.5pt, -50.25549pt) and (8.25552pt, -49.5pt) .. (9.1875pt, -49.5pt) -- cycle
+	;
+	\draw[color_87618,line width=0.6pt]
+	(7.5pt, -51.1875pt) .. controls (7.5pt, -50.25549pt) and (8.25552pt, -49.5pt) .. (9.1875pt, -49.5pt)
+	-- (9.1875pt, -49.5pt)
+	-- (9.1875pt, -49.5pt)
+	-- (9.1875pt, -49.5pt)
+	-- (148.3125pt, -49.5pt)
+	-- (148.3125pt, -49.5pt)
+	-- (148.3125pt, -49.5pt)
+	-- (148.3125pt, -49.5pt) .. controls (149.2445pt, -49.5pt) and (150pt, -50.25549pt) .. (150pt, -51.1875pt)
+	-- (150pt, -51.1875pt)
+	-- (148.3125pt, -49.5pt)
+	-- (148.3125pt, -49.5pt) .. controls (149.2445pt, -49.5pt) and (150pt, -50.25549pt) .. (150pt, -51.1875pt)
+	-- (150pt, -51.1875pt)
+	-- (150pt, -51.1875pt)
+	-- (150pt, -51.1875pt)
+	-- (150pt, -92.8125pt)
+	-- (150pt, -92.8125pt)
+	-- (150pt, -92.8125pt)
+	-- (150pt, -92.8125pt) .. controls (150pt, -93.74448pt) and (149.2445pt, -94.5pt) .. (148.3125pt, -94.5pt)
+	-- (148.3125pt, -94.5pt)
+	-- (150pt, -92.8125pt)
+	-- (150pt, -92.8125pt) .. controls (150pt, -93.74448pt) and (149.2445pt, -94.5pt) .. (148.3125pt, -94.5pt)
+	-- (148.3125pt, -94.5pt)
+	-- (148.3125pt, -94.5pt)
+	-- (148.3125pt, -94.5pt)
+	-- (9.1875pt, -94.5pt)
+	-- (9.1875pt, -94.5pt)
+	-- (9.1875pt, -94.5pt)
+	-- (9.1875pt, -94.5pt) .. controls (8.25552pt, -94.5pt) and (7.5pt, -93.74448pt) .. (7.5pt, -92.8125pt)
+	-- (7.5pt, -92.8125pt)
+	-- (9.1875pt, -94.5pt)
+	-- (9.1875pt, -94.5pt) .. controls (8.25552pt, -94.5pt) and (7.5pt, -93.74448pt) .. (7.5pt, -92.8125pt)
+	-- (7.5pt, -92.8125pt)
+	-- (7.5pt, -92.8125pt)
+	-- (7.5pt, -92.8125pt)
+	-- (7.5pt, -51.1875pt)
+	-- (7.5pt, -51.1875pt)
+	-- (7.5pt, -51.1875pt)
+	-- (7.5pt, -51.1875pt) .. controls (7.5pt, -50.25549pt) and (8.25552pt, -49.5pt) .. (9.1875pt, -49.5pt) -- cycle
+	;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+	\put(22.89093,-73.88254){\fontsize{8.25}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_87618}Favorita Sales Data Collection}
+\end{picture}
+\begin{tikzpicture}[overlay]
+	\path(0pt,0pt);
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -154.5pt) -- (78.75pt, -154.5pt)
+	-- (78.75pt, -154.5pt)
+	-- (78.75pt, -164.7225pt)
+	;
+	\filldraw[color_29791][nonzero rule]
+	(78.75pt, -168.66pt) -- (78.75pt, -168.66pt)
+	-- (78.75pt, -168.66pt)
+	-- (76.125pt, -163.41pt)
+	-- (76.125pt, -163.41pt)
+	-- (78.75pt, -164.7225pt)
+	-- (78.75pt, -164.7225pt)
+	-- (81.375pt, -163.41pt) -- cycle
+	;
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -168.66pt) -- (78.75pt, -168.66pt)
+	-- (78.75pt, -168.66pt)
+	-- (76.125pt, -163.41pt)
+	-- (76.125pt, -163.41pt)
+	-- (78.75pt, -164.7225pt)
+	-- (78.75pt, -164.7225pt)
+	-- (81.375pt, -163.41pt) -- cycle
+	;
+	\filldraw[color_236041][nonzero rule]
+	(7.5pt, -111.1875pt) .. controls (7.5pt, -110.2555pt) and (8.25552pt, -109.5pt) .. (9.1875pt, -109.5pt)
+	-- (9.1875pt, -109.5pt)
+	-- (9.1875pt, -109.5pt)
+	-- (9.1875pt, -109.5pt)
+	-- (148.3125pt, -109.5pt)
+	-- (148.3125pt, -109.5pt)
+	-- (148.3125pt, -109.5pt)
+	-- (148.3125pt, -109.5pt) .. controls (149.2445pt, -109.5pt) and (150pt, -110.2555pt) .. (150pt, -111.1875pt)
+	-- (150pt, -111.1875pt)
+	-- (148.3125pt, -109.5pt)
+	-- (148.3125pt, -109.5pt) .. controls (149.2445pt, -109.5pt) and (150pt, -110.2555pt) .. (150pt, -111.1875pt)
+	-- (150pt, -111.1875pt)
+	-- (150pt, -111.1875pt)
+	-- (150pt, -111.1875pt)
+	-- (150pt, -152.8125pt)
+	-- (150pt, -152.8125pt)
+	-- (150pt, -152.8125pt)
+	-- (150pt, -152.8125pt) .. controls (150pt, -153.7445pt) and (149.2445pt, -154.5pt) .. (148.3125pt, -154.5pt)
+	-- (148.3125pt, -154.5pt)
+	-- (150pt, -152.8125pt)
+	-- (150pt, -152.8125pt) .. controls (150pt, -153.7445pt) and (149.2445pt, -154.5pt) .. (148.3125pt, -154.5pt)
+	-- (148.3125pt, -154.5pt)
+	-- (148.3125pt, -154.5pt)
+	-- (148.3125pt, -154.5pt)
+	-- (9.1875pt, -154.5pt)
+	-- (9.1875pt, -154.5pt)
+	-- (9.1875pt, -154.5pt)
+	-- (9.1875pt, -154.5pt) .. controls (8.25552pt, -154.5pt) and (7.5pt, -153.7445pt) .. (7.5pt, -152.8125pt)
+	-- (7.5pt, -152.8125pt)
+	-- (9.1875pt, -154.5pt)
+	-- (9.1875pt, -154.5pt) .. controls (8.25552pt, -154.5pt) and (7.5pt, -153.7445pt) .. (7.5pt, -152.8125pt)
+	-- (7.5pt, -152.8125pt)
+	-- (7.5pt, -152.8125pt)
+	-- (7.5pt, -152.8125pt)
+	-- (7.5pt, -111.1875pt)
+	-- (7.5pt, -111.1875pt)
+	-- (7.5pt, -111.1875pt)
+	-- (7.5pt, -111.1875pt) .. controls (7.5pt, -110.2555pt) and (8.25552pt, -109.5pt) .. (9.1875pt, -109.5pt) -- cycle
+	;
+	\draw[color_87618,line width=0.6pt]
+	(7.5pt, -111.1875pt) .. controls (7.5pt, -110.2555pt) and (8.25552pt, -109.5pt) .. (9.1875pt, -109.5pt)
+	-- (9.1875pt, -109.5pt)
+	-- (9.1875pt, -109.5pt)
+	-- (9.1875pt, -109.5pt)
+	-- (148.3125pt, -109.5pt)
+	-- (148.3125pt, -109.5pt)
+	-- (148.3125pt, -109.5pt)
+	-- (148.3125pt, -109.5pt) .. controls (149.2445pt, -109.5pt) and (150pt, -110.2555pt) .. (150pt, -111.1875pt)
+	-- (150pt, -111.1875pt)
+	-- (148.3125pt, -109.5pt)
+	-- (148.3125pt, -109.5pt) .. controls (149.2445pt, -109.5pt) and (150pt, -110.2555pt) .. (150pt, -111.1875pt)
+	-- (150pt, -111.1875pt)
+	-- (150pt, -111.1875pt)
+	-- (150pt, -111.1875pt)
+	-- (150pt, -152.8125pt)
+	-- (150pt, -152.8125pt)
+	-- (150pt, -152.8125pt)
+	-- (150pt, -152.8125pt) .. controls (150pt, -153.7445pt) and (149.2445pt, -154.5pt) .. (148.3125pt, -154.5pt)
+	-- (148.3125pt, -154.5pt)
+	-- (150pt, -152.8125pt)
+	-- (150pt, -152.8125pt) .. controls (150pt, -153.7445pt) and (149.2445pt, -154.5pt) .. (148.3125pt, -154.5pt)
+	-- (148.3125pt, -154.5pt)
+	-- (148.3125pt, -154.5pt)
+	-- (148.3125pt, -154.5pt)
+	-- (9.1875pt, -154.5pt)
+	-- (9.1875pt, -154.5pt)
+	-- (9.1875pt, -154.5pt)
+	-- (9.1875pt, -154.5pt) .. controls (8.25552pt, -154.5pt) and (7.5pt, -153.7445pt) .. (7.5pt, -152.8125pt)
+	-- (7.5pt, -152.8125pt)
+	-- (9.1875pt, -154.5pt)
+	-- (9.1875pt, -154.5pt) .. controls (8.25552pt, -154.5pt) and (7.5pt, -153.7445pt) .. (7.5pt, -152.8125pt)
+	-- (7.5pt, -152.8125pt)
+	-- (7.5pt, -152.8125pt)
+	-- (7.5pt, -152.8125pt)
+	-- (7.5pt, -111.1875pt)
+	-- (7.5pt, -111.1875pt)
+	-- (7.5pt, -111.1875pt)
+	-- (7.5pt, -111.1875pt) .. controls (7.5pt, -110.2555pt) and (8.25552pt, -109.5pt) .. (9.1875pt, -109.5pt) -- cycle
+	;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+	\put(19.45074,-133.8825){\fontsize{8.25}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_87618}Data Cleaning \& Transformation}
+\end{picture}
+\begin{tikzpicture}[overlay]
+	\path(0pt,0pt);
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -214.5pt) -- (78.75pt, -214.5pt)
+	-- (78.75pt, -214.5pt)
+	-- (78.75pt, -224.7225pt)
+	;
+	\filldraw[color_29791][nonzero rule]
+	(78.75pt, -228.66pt) -- (78.75pt, -228.66pt)
+	-- (78.75pt, -228.66pt)
+	-- (76.125pt, -223.41pt)
+	-- (76.125pt, -223.41pt)
+	-- (78.75pt, -224.7225pt)
+	-- (78.75pt, -224.7225pt)
+	-- (81.375pt, -223.41pt) -- cycle
+	;
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -228.66pt) -- (78.75pt, -228.66pt)
+	-- (78.75pt, -228.66pt)
+	-- (76.125pt, -223.41pt)
+	-- (76.125pt, -223.41pt)
+	-- (78.75pt, -224.7225pt)
+	-- (78.75pt, -224.7225pt)
+	-- (81.375pt, -223.41pt) -- cycle
+	;
+	\filldraw[color_236041][nonzero rule]
+	(7.5pt, -171.1875pt) .. controls (7.5pt, -170.2555pt) and (8.25552pt, -169.5pt) .. (9.1875pt, -169.5pt)
+	-- (9.1875pt, -169.5pt)
+	-- (9.1875pt, -169.5pt)
+	-- (9.1875pt, -169.5pt)
+	-- (148.3125pt, -169.5pt)
+	-- (148.3125pt, -169.5pt)
+	-- (148.3125pt, -169.5pt)
+	-- (148.3125pt, -169.5pt) .. controls (149.2445pt, -169.5pt) and (150pt, -170.2555pt) .. (150pt, -171.1875pt)
+	-- (150pt, -171.1875pt)
+	-- (148.3125pt, -169.5pt)
+	-- (148.3125pt, -169.5pt) .. controls (149.2445pt, -169.5pt) and (150pt, -170.2555pt) .. (150pt, -171.1875pt)
+	-- (150pt, -171.1875pt)
+	-- (150pt, -171.1875pt)
+	-- (150pt, -171.1875pt)
+	-- (150pt, -212.8125pt)
+	-- (150pt, -212.8125pt)
+	-- (150pt, -212.8125pt)
+	-- (150pt, -212.8125pt) .. controls (150pt, -213.7445pt) and (149.2445pt, -214.5pt) .. (148.3125pt, -214.5pt)
+	-- (148.3125pt, -214.5pt)
+	-- (150pt, -212.8125pt)
+	-- (150pt, -212.8125pt) .. controls (150pt, -213.7445pt) and (149.2445pt, -214.5pt) .. (148.3125pt, -214.5pt)
+	-- (148.3125pt, -214.5pt)
+	-- (148.3125pt, -214.5pt)
+	-- (148.3125pt, -214.5pt)
+	-- (9.1875pt, -214.5pt)
+	-- (9.1875pt, -214.5pt)
+	-- (9.1875pt, -214.5pt)
+	-- (9.1875pt, -214.5pt) .. controls (8.25552pt, -214.5pt) and (7.5pt, -213.7445pt) .. (7.5pt, -212.8125pt)
+	-- (7.5pt, -212.8125pt)
+	-- (9.1875pt, -214.5pt)
+	-- (9.1875pt, -214.5pt) .. controls (8.25552pt, -214.5pt) and (7.5pt, -213.7445pt) .. (7.5pt, -212.8125pt)
+	-- (7.5pt, -212.8125pt)
+	-- (7.5pt, -212.8125pt)
+	-- (7.5pt, -212.8125pt)
+	-- (7.5pt, -171.1875pt)
+	-- (7.5pt, -171.1875pt)
+	-- (7.5pt, -171.1875pt)
+	-- (7.5pt, -171.1875pt) .. controls (7.5pt, -170.2555pt) and (8.25552pt, -169.5pt) .. (9.1875pt, -169.5pt) -- cycle
+	;
+	\draw[color_87618,line width=0.6pt]
+	(7.5pt, -171.1875pt) .. controls (7.5pt, -170.2555pt) and (8.25552pt, -169.5pt) .. (9.1875pt, -169.5pt)
+	-- (9.1875pt, -169.5pt)
+	-- (9.1875pt, -169.5pt)
+	-- (9.1875pt, -169.5pt)
+	-- (148.3125pt, -169.5pt)
+	-- (148.3125pt, -169.5pt)
+	-- (148.3125pt, -169.5pt)
+	-- (148.3125pt, -169.5pt) .. controls (149.2445pt, -169.5pt) and (150pt, -170.2555pt) .. (150pt, -171.1875pt)
+	-- (150pt, -171.1875pt)
+	-- (148.3125pt, -169.5pt)
+	-- (148.3125pt, -169.5pt) .. controls (149.2445pt, -169.5pt) and (150pt, -170.2555pt) .. (150pt, -171.1875pt)
+	-- (150pt, -171.1875pt)
+	-- (150pt, -171.1875pt)
+	-- (150pt, -171.1875pt)
+	-- (150pt, -212.8125pt)
+	-- (150pt, -212.8125pt)
+	-- (150pt, -212.8125pt)
+	-- (150pt, -212.8125pt) .. controls (150pt, -213.7445pt) and (149.2445pt, -214.5pt) .. (148.3125pt, -214.5pt)
+	-- (148.3125pt, -214.5pt)
+	-- (150pt, -212.8125pt)
+	-- (150pt, -212.8125pt) .. controls (150pt, -213.7445pt) and (149.2445pt, -214.5pt) .. (148.3125pt, -214.5pt)
+	-- (148.3125pt, -214.5pt)
+	-- (148.3125pt, -214.5pt)
+	-- (148.3125pt, -214.5pt)
+	-- (9.1875pt, -214.5pt)
+	-- (9.1875pt, -214.5pt)
+	-- (9.1875pt, -214.5pt)
+	-- (9.1875pt, -214.5pt) .. controls (8.25552pt, -214.5pt) and (7.5pt, -213.7445pt) .. (7.5pt, -212.8125pt)
+	-- (7.5pt, -212.8125pt)
+	-- (9.1875pt, -214.5pt)
+	-- (9.1875pt, -214.5pt) .. controls (8.25552pt, -214.5pt) and (7.5pt, -213.7445pt) .. (7.5pt, -212.8125pt)
+	-- (7.5pt, -212.8125pt)
+	-- (7.5pt, -212.8125pt)
+	-- (7.5pt, -212.8125pt)
+	-- (7.5pt, -171.1875pt)
+	-- (7.5pt, -171.1875pt)
+	-- (7.5pt, -171.1875pt)
+	-- (7.5pt, -171.1875pt) .. controls (7.5pt, -170.2555pt) and (8.25552pt, -169.5pt) .. (9.1875pt, -169.5pt) -- cycle
+	;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+	\put(41.00629,-193.8825){\fontsize{8.25}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_87618}Exploratory Analysis}
+\end{picture}
+\begin{tikzpicture}[overlay]
+	\path(0pt,0pt);
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -274.5pt) -- (78.75pt, -274.5pt)
+	-- (78.75pt, -274.5pt)
+	-- (78.75pt, -284.7225pt)
+	;
+	\filldraw[color_29791][nonzero rule]
+	(78.75pt, -288.66pt) -- (78.75pt, -288.66pt)
+	-- (78.75pt, -288.66pt)
+	-- (76.125pt, -283.41pt)
+	-- (76.125pt, -283.41pt)
+	-- (78.75pt, -284.7225pt)
+	-- (78.75pt, -284.7225pt)
+	-- (81.375pt, -283.41pt) -- cycle
+	;
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -288.66pt) -- (78.75pt, -288.66pt)
+	-- (78.75pt, -288.66pt)
+	-- (76.125pt, -283.41pt)
+	-- (76.125pt, -283.41pt)
+	-- (78.75pt, -284.7225pt)
+	-- (78.75pt, -284.7225pt)
+	-- (81.375pt, -283.41pt) -- cycle
+	;
+	\filldraw[color_236041][nonzero rule]
+	(7.5pt, -231.1875pt) .. controls (7.5pt, -230.2555pt) and (8.25552pt, -229.5pt) .. (9.1875pt, -229.5pt)
+	-- (9.1875pt, -229.5pt)
+	-- (9.1875pt, -229.5pt)
+	-- (9.1875pt, -229.5pt)
+	-- (148.3125pt, -229.5pt)
+	-- (148.3125pt, -229.5pt)
+	-- (148.3125pt, -229.5pt)
+	-- (148.3125pt, -229.5pt) .. controls (149.2445pt, -229.5pt) and (150pt, -230.2555pt) .. (150pt, -231.1875pt)
+	-- (150pt, -231.1875pt)
+	-- (148.3125pt, -229.5pt)
+	-- (148.3125pt, -229.5pt) .. controls (149.2445pt, -229.5pt) and (150pt, -230.2555pt) .. (150pt, -231.1875pt)
+	-- (150pt, -231.1875pt)
+	-- (150pt, -231.1875pt)
+	-- (150pt, -231.1875pt)
+	-- (150pt, -272.8125pt)
+	-- (150pt, -272.8125pt)
+	-- (150pt, -272.8125pt)
+	-- (150pt, -272.8125pt) .. controls (150pt, -273.7445pt) and (149.2445pt, -274.5pt) .. (148.3125pt, -274.5pt)
+	-- (148.3125pt, -274.5pt)
+	-- (150pt, -272.8125pt)
+	-- (150pt, -272.8125pt) .. controls (150pt, -273.7445pt) and (149.2445pt, -274.5pt) .. (148.3125pt, -274.5pt)
+	-- (148.3125pt, -274.5pt)
+	-- (148.3125pt, -274.5pt)
+	-- (148.3125pt, -274.5pt)
+	-- (9.1875pt, -274.5pt)
+	-- (9.1875pt, -274.5pt)
+	-- (9.1875pt, -274.5pt)
+	-- (9.1875pt, -274.5pt) .. controls (8.25552pt, -274.5pt) and (7.5pt, -273.7445pt) .. (7.5pt, -272.8125pt)
+	-- (7.5pt, -272.8125pt)
+	-- (9.1875pt, -274.5pt)
+	-- (9.1875pt, -274.5pt) .. controls (8.25552pt, -274.5pt) and (7.5pt, -273.7445pt) .. (7.5pt, -272.8125pt)
+	-- (7.5pt, -272.8125pt)
+	-- (7.5pt, -272.8125pt)
+	-- (7.5pt, -272.8125pt)
+	-- (7.5pt, -231.1875pt)
+	-- (7.5pt, -231.1875pt)
+	-- (7.5pt, -231.1875pt)
+	-- (7.5pt, -231.1875pt) .. controls (7.5pt, -230.2555pt) and (8.25552pt, -229.5pt) .. (9.1875pt, -229.5pt) -- cycle
+	;
+	\draw[color_87618,line width=0.6pt]
+	(7.5pt, -231.1875pt) .. controls (7.5pt, -230.2555pt) and (8.25552pt, -229.5pt) .. (9.1875pt, -229.5pt)
+	-- (9.1875pt, -229.5pt)
+	-- (9.1875pt, -229.5pt)
+	-- (9.1875pt, -229.5pt)
+	-- (148.3125pt, -229.5pt)
+	-- (148.3125pt, -229.5pt)
+	-- (148.3125pt, -229.5pt)
+	-- (148.3125pt, -229.5pt) .. controls (149.2445pt, -229.5pt) and (150pt, -230.2555pt) .. (150pt, -231.1875pt)
+	-- (150pt, -231.1875pt)
+	-- (148.3125pt, -229.5pt)
+	-- (148.3125pt, -229.5pt) .. controls (149.2445pt, -229.5pt) and (150pt, -230.2555pt) .. (150pt, -231.1875pt)
+	-- (150pt, -231.1875pt)
+	-- (150pt, -231.1875pt)
+	-- (150pt, -231.1875pt)
+	-- (150pt, -272.8125pt)
+	-- (150pt, -272.8125pt)
+	-- (150pt, -272.8125pt)
+	-- (150pt, -272.8125pt) .. controls (150pt, -273.7445pt) and (149.2445pt, -274.5pt) .. (148.3125pt, -274.5pt)
+	-- (148.3125pt, -274.5pt)
+	-- (150pt, -272.8125pt)
+	-- (150pt, -272.8125pt) .. controls (150pt, -273.7445pt) and (149.2445pt, -274.5pt) .. (148.3125pt, -274.5pt)
+	-- (148.3125pt, -274.5pt)
+	-- (148.3125pt, -274.5pt)
+	-- (148.3125pt, -274.5pt)
+	-- (9.1875pt, -274.5pt)
+	-- (9.1875pt, -274.5pt)
+	-- (9.1875pt, -274.5pt)
+	-- (9.1875pt, -274.5pt) .. controls (8.25552pt, -274.5pt) and (7.5pt, -273.7445pt) .. (7.5pt, -272.8125pt)
+	-- (7.5pt, -272.8125pt)
+	-- (9.1875pt, -274.5pt)
+	-- (9.1875pt, -274.5pt) .. controls (8.25552pt, -274.5pt) and (7.5pt, -273.7445pt) .. (7.5pt, -272.8125pt)
+	-- (7.5pt, -272.8125pt)
+	-- (7.5pt, -272.8125pt)
+	-- (7.5pt, -272.8125pt)
+	-- (7.5pt, -231.1875pt)
+	-- (7.5pt, -231.1875pt)
+	-- (7.5pt, -231.1875pt)
+	-- (7.5pt, -231.1875pt) .. controls (7.5pt, -230.2555pt) and (8.25552pt, -229.5pt) .. (9.1875pt, -229.5pt) -- cycle
+	;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+	\put(20.36719,-253.8825){\fontsize{8.25}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_87618}Choosing Regression Algorithm}
+\end{picture}
+\begin{tikzpicture}[overlay]
+	\path(0pt,0pt);
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -379.5pt) -- (78.75pt, -379.5pt)
+	-- (78.75pt, -379.5pt)
+	-- (78.75pt, -394.5pt)
+	-- (78.75pt, -394.5pt)
+	-- (78.75pt, -375.75pt)
+	-- (78.75pt, -375.75pt)
+	-- (78.75pt, -385.9725pt)
+	;
+	\filldraw[color_29791][nonzero rule]
+	(78.75pt, -389.91pt) -- (78.75pt, -389.91pt)
+	-- (78.75pt, -389.91pt)
+	-- (76.125pt, -384.66pt)
+	-- (76.125pt, -384.66pt)
+	-- (78.75pt, -385.9725pt)
+	-- (78.75pt, -385.9725pt)
+	-- (81.375pt, -384.66pt) -- cycle
+	;
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -389.91pt) -- (78.75pt, -389.91pt)
+	-- (78.75pt, -389.91pt)
+	-- (76.125pt, -384.66pt)
+	-- (76.125pt, -384.66pt)
+	-- (78.75pt, -385.9725pt)
+	-- (78.75pt, -385.9725pt)
+	-- (81.375pt, -384.66pt) -- cycle
+	;
+	\draw[color_29791,line width=1pt]
+	(7.5pt, -334.5pt) -- (7.5pt, -334.5pt)
+	-- (7.5pt, -334.5pt)
+	-- (-7.5pt, -334.5pt)
+	-- (-7.5pt, -334.5pt)
+	-- (-7.5pt, -252pt)
+	-- (-7.5pt, -252pt)
+	-- (2.7225pt, -252pt)
+	;
+	\filldraw[color_29791][nonzero rule]
+	(6.66pt, -252pt) -- (6.66pt, -252pt)
+	-- (6.66pt, -252pt)
+	-- (1.41pt, -254.625pt)
+	-- (1.41pt, -254.625pt)
+	-- (2.7225pt, -252pt)
+	-- (2.7225pt, -252pt)
+	-- (1.41pt, -249.375pt) -- cycle
+	;
+	\draw[color_29791,line width=1pt]
+	(6.66pt, -252pt) -- (6.66pt, -252pt)
+	-- (6.66pt, -252pt)
+	-- (1.41pt, -254.625pt)
+	-- (1.41pt, -254.625pt)
+	-- (2.7225pt, -252pt)
+	-- (2.7225pt, -252pt)
+	-- (1.41pt, -249.375pt) -- cycle
+	;
+	\filldraw[color_282664][nonzero rule]
+	(43.125pt, -312pt) -- (43.125pt, -312pt)
+	-- (43.125pt, -312pt)
+	-- (75.89999pt, -291.3pt)
+	-- (75.89999pt, -291.3pt)
+	-- (75.89999pt, -291.3pt)
+	-- (75.89999pt, -291.3pt) .. controls (77.8pt, -290.1pt) and (79.7pt, -290.1pt) .. (81.60001pt, -291.3pt)
+	-- (81.60001pt, -291.3pt)
+	-- (147.15pt, -332.7pt)
+	-- (147.15pt, -332.7pt) .. controls (149.05pt, -333.9pt) and (149.05pt, -335.1pt) .. (147.15pt, -336.3pt)
+	-- (147.15pt, -336.3pt)
+	-- (81.60001pt, -377.7pt)
+	-- (81.60001pt, -377.7pt) .. controls (79.7pt, -378.9pt) and (77.8pt, -378.9pt) .. (75.89999pt, -377.7pt)
+	-- (75.89999pt, -377.7pt)
+	-- (10.35pt, -336.3pt)
+	-- (10.35pt, -336.3pt) .. controls (8.450001pt, -335.1pt) and (8.450001pt, -333.9pt) .. (10.35pt, -332.7pt) -- cycle
+	;
+	\draw[color_87618,line width=0.6pt]
+	(43.125pt, -312pt) -- (43.125pt, -312pt)
+	-- (43.125pt, -312pt)
+	-- (75.89999pt, -291.3pt)
+	-- (75.89999pt, -291.3pt)
+	-- (75.89999pt, -291.3pt)
+	-- (75.89999pt, -291.3pt) .. controls (77.8pt, -290.1pt) and (79.7pt, -290.1pt) .. (81.60001pt, -291.3pt)
+	-- (81.60001pt, -291.3pt)
+	-- (147.15pt, -332.7pt)
+	-- (147.15pt, -332.7pt) .. controls (149.05pt, -333.9pt) and (149.05pt, -335.1pt) .. (147.15pt, -336.3pt)
+	-- (147.15pt, -336.3pt)
+	-- (81.60001pt, -377.7pt)
+	-- (81.60001pt, -377.7pt) .. controls (79.7pt, -378.9pt) and (77.8pt, -378.9pt) .. (75.89999pt, -377.7pt)
+	-- (75.89999pt, -377.7pt)
+	-- (10.35pt, -336.3pt)
+	-- (10.35pt, -336.3pt) .. controls (8.450001pt, -335.1pt) and (8.450001pt, -333.9pt) .. (10.35pt, -332.7pt) -- cycle
+	;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+	\put(43.75763,-336.3825){\fontsize{8.25}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_87618}Desired Accuracy?}
+\end{picture}
+\begin{tikzpicture}[overlay]
+	\path(0pt,0pt);
+	\filldraw[color_274709][even odd rule]
+	(7.5pt, -537pt) .. controls (7.5pt, -524.5736pt) and (39.39971pt, -514.5pt) .. (78.75pt, -514.5pt)
+	-- (78.75pt, -514.5pt)
+	-- (78.75pt, -514.5pt)
+	-- (78.75pt, -514.5pt) .. controls (118.1003pt, -514.5pt) and (150pt, -524.5736pt) .. (150pt, -537pt)
+	-- (150pt, -537pt)
+	-- (150pt, -537pt)
+	-- (150pt, -537pt) .. controls (150pt, -549.4264pt) and (118.1003pt, -559.5pt) .. (78.75pt, -559.5pt)
+	-- (78.75pt, -559.5pt)
+	-- (78.75pt, -559.5pt)
+	-- (78.75pt, -559.5pt) .. controls (39.39971pt, -559.5pt) and (7.5pt, -549.4264pt) .. (7.5pt, -537pt)
+	;
+	\draw[color_209299,line width=0.75pt]
+	(7.5pt, -537pt) .. controls (7.5pt, -524.5736pt) and (39.39971pt, -514.5pt) .. (78.75pt, -514.5pt)
+	-- (78.75pt, -514.5pt)
+	-- (78.75pt, -514.5pt)
+	-- (78.75pt, -514.5pt) .. controls (118.1003pt, -514.5pt) and (150pt, -524.5736pt) .. (150pt, -537pt)
+	-- (150pt, -537pt)
+	-- (150pt, -537pt)
+	-- (150pt, -537pt) .. controls (150pt, -549.4264pt) and (118.1003pt, -559.5pt) .. (78.75pt, -559.5pt)
+	-- (78.75pt, -559.5pt)
+	-- (78.75pt, -559.5pt)
+	-- (78.75pt, -559.5pt) .. controls (39.39971pt, -559.5pt) and (7.5pt, -549.4264pt) .. (7.5pt, -537pt)
+	;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+	\put(69.11792,-539.6332){\fontsize{9}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}Stop}
+\end{picture}
+\begin{tikzpicture}[overlay]
+	\path(0pt,0pt);
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -435.75pt) -- (78.75pt, -435.75pt)
+	-- (78.75pt, -435.75pt)
+	-- (78.75pt, -449.7225pt)
+	;
+	\filldraw[color_29791][nonzero rule]
+	(78.75pt, -453.66pt) -- (78.75pt, -453.66pt)
+	-- (78.75pt, -453.66pt)
+	-- (76.125pt, -448.41pt)
+	-- (76.125pt, -448.41pt)
+	-- (78.75pt, -449.7225pt)
+	-- (78.75pt, -449.7225pt)
+	-- (81.375pt, -448.41pt) -- cycle
+	;
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -453.66pt) -- (78.75pt, -453.66pt)
+	-- (78.75pt, -453.66pt)
+	-- (76.125pt, -448.41pt)
+	-- (76.125pt, -448.41pt)
+	-- (78.75pt, -449.7225pt)
+	-- (78.75pt, -449.7225pt)
+	-- (81.375pt, -448.41pt) -- cycle
+	;
+	\filldraw[color_236041][nonzero rule]
+	(7.5pt, -392.4375pt) .. controls (7.5pt, -391.5055pt) and (8.25552pt, -390.75pt) .. (9.1875pt, -390.75pt)
+	-- (9.1875pt, -390.75pt)
+	-- (9.1875pt, -390.75pt)
+	-- (9.1875pt, -390.75pt)
+	-- (148.3125pt, -390.75pt)
+	-- (148.3125pt, -390.75pt)
+	-- (148.3125pt, -390.75pt)
+	-- (148.3125pt, -390.75pt) .. controls (149.2445pt, -390.75pt) and (150pt, -391.5055pt) .. (150pt, -392.4375pt)
+	-- (150pt, -392.4375pt)
+	-- (148.3125pt, -390.75pt)
+	-- (148.3125pt, -390.75pt) .. controls (149.2445pt, -390.75pt) and (150pt, -391.5055pt) .. (150pt, -392.4375pt)
+	-- (150pt, -392.4375pt)
+	-- (150pt, -392.4375pt)
+	-- (150pt, -392.4375pt)
+	-- (150pt, -434.0625pt)
+	-- (150pt, -434.0625pt)
+	-- (150pt, -434.0625pt)
+	-- (150pt, -434.0625pt) .. controls (150pt, -434.9945pt) and (149.2445pt, -435.75pt) .. (148.3125pt, -435.75pt)
+	-- (148.3125pt, -435.75pt)
+	-- (150pt, -434.0625pt)
+	-- (150pt, -434.0625pt) .. controls (150pt, -434.9945pt) and (149.2445pt, -435.75pt) .. (148.3125pt, -435.75pt)
+	-- (148.3125pt, -435.75pt)
+	-- (148.3125pt, -435.75pt)
+	-- (148.3125pt, -435.75pt)
+	-- (9.1875pt, -435.75pt)
+	-- (9.1875pt, -435.75pt)
+	-- (9.1875pt, -435.75pt)
+	-- (9.1875pt, -435.75pt) .. controls (8.25552pt, -435.75pt) and (7.5pt, -434.9945pt) .. (7.5pt, -434.0625pt)
+	-- (7.5pt, -434.0625pt)
+	-- (9.1875pt, -435.75pt)
+	-- (9.1875pt, -435.75pt) .. controls (8.25552pt, -435.75pt) and (7.5pt, -434.9945pt) .. (7.5pt, -434.0625pt)
+	-- (7.5pt, -434.0625pt)
+	-- (7.5pt, -434.0625pt)
+	-- (7.5pt, -434.0625pt)
+	-- (7.5pt, -392.4375pt)
+	-- (7.5pt, -392.4375pt)
+	-- (7.5pt, -392.4375pt)
+	-- (7.5pt, -392.4375pt) .. controls (7.5pt, -391.5055pt) and (8.25552pt, -390.75pt) .. (9.1875pt, -390.75pt) -- cycle
+	;
+	\draw[color_87618,line width=0.6pt]
+	(7.5pt, -392.4375pt) .. controls (7.5pt, -391.5055pt) and (8.25552pt, -390.75pt) .. (9.1875pt, -390.75pt)
+	-- (9.1875pt, -390.75pt)
+	-- (9.1875pt, -390.75pt)
+	-- (9.1875pt, -390.75pt)
+	-- (148.3125pt, -390.75pt)
+	-- (148.3125pt, -390.75pt)
+	-- (148.3125pt, -390.75pt)
+	-- (148.3125pt, -390.75pt) .. controls (149.2445pt, -390.75pt) and (150pt, -391.5055pt) .. (150pt, -392.4375pt)
+	-- (150pt, -392.4375pt)
+	-- (148.3125pt, -390.75pt)
+	-- (148.3125pt, -390.75pt) .. controls (149.2445pt, -390.75pt) and (150pt, -391.5055pt) .. (150pt, -392.4375pt)
+	-- (150pt, -392.4375pt)
+	-- (150pt, -392.4375pt)
+	-- (150pt, -392.4375pt)
+	-- (150pt, -434.0625pt)
+	-- (150pt, -434.0625pt)
+	-- (150pt, -434.0625pt)
+	-- (150pt, -434.0625pt) .. controls (150pt, -434.9945pt) and (149.2445pt, -435.75pt) .. (148.3125pt, -435.75pt)
+	-- (148.3125pt, -435.75pt)
+	-- (150pt, -434.0625pt)
+	-- (150pt, -434.0625pt) .. controls (150pt, -434.9945pt) and (149.2445pt, -435.75pt) .. (148.3125pt, -435.75pt)
+	-- (148.3125pt, -435.75pt)
+	-- (148.3125pt, -435.75pt)
+	-- (148.3125pt, -435.75pt)
+	-- (9.1875pt, -435.75pt)
+	-- (9.1875pt, -435.75pt)
+	-- (9.1875pt, -435.75pt)
+	-- (9.1875pt, -435.75pt) .. controls (8.25552pt, -435.75pt) and (7.5pt, -434.9945pt) .. (7.5pt, -434.0625pt)
+	-- (7.5pt, -434.0625pt)
+	-- (9.1875pt, -435.75pt)
+	-- (9.1875pt, -435.75pt) .. controls (8.25552pt, -435.75pt) and (7.5pt, -434.9945pt) .. (7.5pt, -434.0625pt)
+	-- (7.5pt, -434.0625pt)
+	-- (7.5pt, -434.0625pt)
+	-- (7.5pt, -434.0625pt)
+	-- (7.5pt, -392.4375pt)
+	-- (7.5pt, -392.4375pt)
+	-- (7.5pt, -392.4375pt)
+	-- (7.5pt, -392.4375pt) .. controls (7.5pt, -391.5055pt) and (8.25552pt, -390.75pt) .. (9.1875pt, -390.75pt) -- cycle
+	;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+	\put(56.36426,-415.1325){\fontsize{8.25}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_87618}Deployment}
+\end{picture}
+\begin{tikzpicture}[overlay]
+	\path(0pt,0pt);
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -499.5pt) -- (78.75pt, -499.5pt)
+	-- (78.75pt, -499.5pt)
+	-- (78.75pt, -509.7225pt)
+	;
+	\filldraw[color_29791][nonzero rule]
+	(78.75pt, -513.66pt) -- (78.75pt, -513.66pt)
+	-- (78.75pt, -513.66pt)
+	-- (76.125pt, -508.41pt)
+	-- (76.125pt, -508.41pt)
+	-- (78.75pt, -509.7225pt)
+	-- (78.75pt, -509.7225pt)
+	-- (81.375pt, -508.41pt) -- cycle
+	;
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -513.66pt) -- (78.75pt, -513.66pt)
+	-- (78.75pt, -513.66pt)
+	-- (76.125pt, -508.41pt)
+	-- (76.125pt, -508.41pt)
+	-- (78.75pt, -509.7225pt)
+	-- (78.75pt, -509.7225pt)
+	-- (81.375pt, -508.41pt) -- cycle
+	;
+	\filldraw[color_236041][nonzero rule]
+	(7.5pt, -456.1875pt) .. controls (7.5pt, -455.2555pt) and (8.25552pt, -454.5pt) .. (9.1875pt, -454.5pt)
+	-- (9.1875pt, -454.5pt)
+	-- (9.1875pt, -454.5pt)
+	-- (9.1875pt, -454.5pt)
+	-- (148.3125pt, -454.5pt)
+	-- (148.3125pt, -454.5pt)
+	-- (148.3125pt, -454.5pt)
+	-- (148.3125pt, -454.5pt) .. controls (149.2445pt, -454.5pt) and (150pt, -455.2555pt) .. (150pt, -456.1875pt)
+	-- (150pt, -456.1875pt)
+	-- (148.3125pt, -454.5pt)
+	-- (148.3125pt, -454.5pt) .. controls (149.2445pt, -454.5pt) and (150pt, -455.2555pt) .. (150pt, -456.1875pt)
+	-- (150pt, -456.1875pt)
+	-- (150pt, -456.1875pt)
+	-- (150pt, -456.1875pt)
+	-- (150pt, -497.8125pt)
+	-- (150pt, -497.8125pt)
+	-- (150pt, -497.8125pt)
+	-- (150pt, -497.8125pt) .. controls (150pt, -498.7445pt) and (149.2445pt, -499.5pt) .. (148.3125pt, -499.5pt)
+	-- (148.3125pt, -499.5pt)
+	-- (150pt, -497.8125pt)
+	-- (150pt, -497.8125pt) .. controls (150pt, -498.7445pt) and (149.2445pt, -499.5pt) .. (148.3125pt, -499.5pt)
+	-- (148.3125pt, -499.5pt)
+	-- (148.3125pt, -499.5pt)
+	-- (148.3125pt, -499.5pt)
+	-- (9.1875pt, -499.5pt)
+	-- (9.1875pt, -499.5pt)
+	-- (9.1875pt, -499.5pt)
+	-- (9.1875pt, -499.5pt) .. controls (8.25552pt, -499.5pt) and (7.5pt, -498.7445pt) .. (7.5pt, -497.8125pt)
+	-- (7.5pt, -497.8125pt)
+	-- (9.1875pt, -499.5pt)
+	-- (9.1875pt, -499.5pt) .. controls (8.25552pt, -499.5pt) and (7.5pt, -498.7445pt) .. (7.5pt, -497.8125pt)
+	-- (7.5pt, -497.8125pt)
+	-- (7.5pt, -497.8125pt)
+	-- (7.5pt, -497.8125pt)
+	-- (7.5pt, -456.1875pt)
+	-- (7.5pt, -456.1875pt)
+	-- (7.5pt, -456.1875pt)
+	-- (7.5pt, -456.1875pt) .. controls (7.5pt, -455.2555pt) and (8.25552pt, -454.5pt) .. (9.1875pt, -454.5pt) -- cycle
+	;
+	\draw[color_87618,line width=0.6pt]
+	(7.5pt, -456.1875pt) .. controls (7.5pt, -455.2555pt) and (8.25552pt, -454.5pt) .. (9.1875pt, -454.5pt)
+	-- (9.1875pt, -454.5pt)
+	-- (9.1875pt, -454.5pt)
+	-- (9.1875pt, -454.5pt)
+	-- (148.3125pt, -454.5pt)
+	-- (148.3125pt, -454.5pt)
+	-- (148.3125pt, -454.5pt)
+	-- (148.3125pt, -454.5pt) .. controls (149.2445pt, -454.5pt) and (150pt, -455.2555pt) .. (150pt, -456.1875pt)
+	-- (150pt, -456.1875pt)
+	-- (148.3125pt, -454.5pt)
+	-- (148.3125pt, -454.5pt) .. controls (149.2445pt, -454.5pt) and (150pt, -455.2555pt) .. (150pt, -456.1875pt)
+	-- (150pt, -456.1875pt)
+	-- (150pt, -456.1875pt)
+	-- (150pt, -456.1875pt)
+	-- (150pt, -497.8125pt)
+	-- (150pt, -497.8125pt)
+	-- (150pt, -497.8125pt)
+	-- (150pt, -497.8125pt) .. controls (150pt, -498.7445pt) and (149.2445pt, -499.5pt) .. (148.3125pt, -499.5pt)
+	-- (148.3125pt, -499.5pt)
+	-- (150pt, -497.8125pt)
+	-- (150pt, -497.8125pt) .. controls (150pt, -498.7445pt) and (149.2445pt, -499.5pt) .. (148.3125pt, -499.5pt)
+	-- (148.3125pt, -499.5pt)
+	-- (148.3125pt, -499.5pt)
+	-- (148.3125pt, -499.5pt)
+	-- (9.1875pt, -499.5pt)
+	-- (9.1875pt, -499.5pt)
+	-- (9.1875pt, -499.5pt)
+	-- (9.1875pt, -499.5pt) .. controls (8.25552pt, -499.5pt) and (7.5pt, -498.7445pt) .. (7.5pt, -497.8125pt)
+	-- (7.5pt, -497.8125pt)
+	-- (9.1875pt, -499.5pt)
+	-- (9.1875pt, -499.5pt) .. controls (8.25552pt, -499.5pt) and (7.5pt, -498.7445pt) .. (7.5pt, -497.8125pt)
+	-- (7.5pt, -497.8125pt)
+	-- (7.5pt, -497.8125pt)
+	-- (7.5pt, -497.8125pt)
+	-- (7.5pt, -456.1875pt)
+	-- (7.5pt, -456.1875pt)
+	-- (7.5pt, -456.1875pt)
+	-- (7.5pt, -456.1875pt) .. controls (7.5pt, -455.2555pt) and (8.25552pt, -454.5pt) .. (9.1875pt, -454.5pt) -- cycle
+	;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+	\put(48.56744,-478.8825){\fontsize{8.25}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_87618}Sales Prediction}
+\end{picture}
+\begin{tikzpicture}[overlay]
+	\path(0pt,0pt);
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -34.5pt) -- (78.75pt, -34.5pt)
+	-- (78.75pt, -34.5pt)
+	-- (78.75pt, -44.72247pt)
+	;
+	\filldraw[color_29791][nonzero rule]
+	(78.75pt, -48.65997pt) -- (78.75pt, -48.65997pt)
+	-- (78.75pt, -48.65997pt)
+	-- (76.125pt, -43.40997pt)
+	-- (76.125pt, -43.40997pt)
+	-- (78.75pt, -44.72247pt)
+	-- (78.75pt, -44.72247pt)
+	-- (81.375pt, -43.40997pt) -- cycle
+	;
+	\draw[color_29791,line width=1pt]
+	(78.75pt, -48.65997pt) -- (78.75pt, -48.65997pt)
+	-- (78.75pt, -48.65997pt)
+	-- (76.125pt, -43.40997pt)
+	-- (76.125pt, -43.40997pt)
+	-- (78.75pt, -44.72247pt)
+	-- (78.75pt, -44.72247pt)
+	-- (81.375pt, -43.40997pt) -- cycle
+	;
+	\filldraw[color_241888][even odd rule]
+	(7.5pt, -12pt) .. controls (7.5pt, 0.426392pt) and (39.39971pt, 10.5pt) .. (78.75pt, 10.5pt)
+	-- (78.75pt, 10.5pt)
+	-- (78.75pt, 10.5pt)
+	-- (78.75pt, 10.5pt) .. controls (118.1003pt, 10.5pt) and (150pt, 0.426392pt) .. (150pt, -12pt)
+	-- (150pt, -12pt)
+	-- (150pt, -12pt)
+	-- (150pt, -12pt) .. controls (150pt, -24.42639pt) and (118.1003pt, -34.5pt) .. (78.75pt, -34.5pt)
+	-- (78.75pt, -34.5pt)
+	-- (78.75pt, -34.5pt)
+	-- (78.75pt, -34.5pt) .. controls (39.39971pt, -34.5pt) and (7.5pt, -24.42639pt) .. (7.5pt, -12pt)
+	;
+	\draw[color_160372,line width=0.75pt]
+	(7.5pt, -12pt) .. controls (7.5pt, 0.426392pt) and (39.39971pt, 10.5pt) .. (78.75pt, 10.5pt)
+	-- (78.75pt, 10.5pt)
+	-- (78.75pt, 10.5pt)
+	-- (78.75pt, 10.5pt) .. controls (118.1003pt, 10.5pt) and (150pt, 0.426392pt) .. (150pt, -12pt)
+	-- (150pt, -12pt)
+	-- (150pt, -12pt)
+	-- (150pt, -12pt) .. controls (150pt, -24.42639pt) and (118.1003pt, -34.5pt) .. (78.75pt, -34.5pt)
+	-- (78.75pt, -34.5pt)
+	-- (78.75pt, -34.5pt)
+	-- (78.75pt, -34.5pt) .. controls (39.39971pt, -34.5pt) and (7.5pt, -24.42639pt) .. (7.5pt, -12pt)
+	;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+	\put(68.87183,-14.63324){\fontsize{9}{1}\usefont{T1}{uarial}{m}{n}\selectfont\color{color_29791}Start}
+	\put(86.16321,-385.1319){\fontsize{7.5}{1}\usefont{T1}{uarial}{m}{n}\selectfont\color{color_37668}Yes}
+	\put(-5.168701,-302.6319){\fontsize{7.5}{1}\usefont{T1}{uarial}{m}{n}\selectfont\color{color_37668}No}
+	\put(18.88111,-563.2523){\fontsize{7.5}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}}
+\end{picture}
+\end{center}
+
+\begin{figure}
+	\begin{tikzpicture}
+		{% temporally change the background color
+			\colorlet{bgcolor}{white!20}
+			\fill[bgcolor] (0,0) rectangle (.2,.2);	
+		}
+		
+	\end{tikzpicture}
+\caption{Sales Precdiction Development FlowChart}
+\end{figure}
+
+
+

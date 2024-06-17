@@ -1,0 +1,1001 @@
+store_nbr,item_nbr,onpromotion,city,type_x,cluster,family,perishable,type_y,locale,transferred,dcoilwtico,month,year,day
+54,357961,False,El Carmen,C,3,EGGS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,268662,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,168927,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1102970,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1463591,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1473475,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1958177,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1473428,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2048596,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1463808,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,514242,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2048182,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1351305,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,507870,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,371130,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2029467,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1179109,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,900196,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,119141,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1458461,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2013931,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2047496,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1963561,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,168989,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,413987,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1239846,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,376427,False,Manta,D,13,EGGS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,757888,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1422835,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2010049,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,371434,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1916577,False,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1458849,True,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,903955,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,841514,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2057387,True,Ambato,A,14,SCHOOL AND OFFICE SUPPLIES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1503844,False,Guayaquil,A,17,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1239844,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,938125,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,762405,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,517909,False,Ambato,A,14,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1971328,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1239741,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1349808,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1239881,False,Guayaquil,A,17,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1464088,True,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,570922,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2081095,False,Manta,A,11,PREPARED FOODS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,123601,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,159156,False,Manta,D,13,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1457333,False,El Carmen,C,3,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2048300,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,165594,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1309560,False,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1909453,False,Ambato,A,14,HOME AND KITCHEN II,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,724498,True,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1457004,False,Manta,A,11,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,513853,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1463812,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,598414,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,318935,False,Manta,A,11,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2048358,False,Manta,A,11,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,692537,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,996606,False,Manta,A,11,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,507354,False,Manta,D,13,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,514149,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,679926,False,Manta,A,11,EGGS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1948483,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2008562,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1239897,False,Ambato,A,14,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1037857,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,841841,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1576322,False,Guayaquil,A,17,CELEBRATION,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1465130,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1642401,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1464201,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1464074,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,320681,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1501520,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1368456,False,El Carmen,C,3,HOME AND KITCHEN I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,557241,False,Ambato,A,14,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1112840,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1430041,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,987768,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,789904,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1968073,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1920057,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1135438,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,623316,False,Ambato,A,14,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1937083,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1920107,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1121616,False,Ambato,A,14,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1938600,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,933780,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1466039,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,371434,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,692105,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1412575,False,Guayaquil,A,17,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,108698,False,Guayaquil,A,17,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1033395,False,Manta,A,11,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,884878,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1052563,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,273859,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,511172,False,El Carmen,C,3,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1463859,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,911989,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1346629,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1038953,False,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1464194,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1349808,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,464374,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,767183,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2006310,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1313222,False,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2086882,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1900715,False,Ambato,A,14,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1948632,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1472489,False,Manta,A,11,PET SUPPLIES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2112404,True,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1415679,False,Manta,A,11,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,617548,True,Ambato,A,14,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,890215,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1585782,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1726002,False,Guayaquil,A,17,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,946671,False,Manta,D,13,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,115720,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,105737,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1916208,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1441515,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2087543,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1146800,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1239915,False,El Carmen,C,3,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,982726,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,315320,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,949511,True,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,795610,False,Manta,A,11,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,939662,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1239954,False,El Carmen,C,3,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,2026983,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2005613,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1584576,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,838407,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1114914,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,805788,True,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1453123,True,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2003389,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1463882,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1313222,False,El Carmen,C,3,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1464217,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2011073,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,155607,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1281780,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1037856,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1239911,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1935601,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1457256,False,Manta,A,11,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1584309,False,Manta,A,11,LADIESWEAR,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1134971,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1973606,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1964739,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,168931,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1239808,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2111684,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,554049,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1047735,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,275826,True,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1686664,False,Guayaquil,A,17,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,169104,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1932491,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1239720,True,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,212550,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,222975,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1957078,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1456931,True,Guayaquil,A,17,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1975527,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,557256,False,El Carmen,C,3,EGGS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1463855,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,125430,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1695815,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,671684,False,Manta,A,11,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,645294,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,890372,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1167175,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,838215,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,315221,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2010404,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,315320,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1937083,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,939661,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1339883,False,Guayaquil,A,17,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,457727,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1920141,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1226506,False,Manta,D,13,LAWN AND GARDEN,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2043795,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1345067,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,314881,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1284221,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1391549,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1717663,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,723210,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1660239,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,155601,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1084882,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1457417,False,Manta,D,13,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,796395,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,954805,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1228995,False,Guayaquil,A,17,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1113852,False,Manta,A,11,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1471460,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,223434,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2076761,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1176562,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1162761,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,847863,True,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,314570,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2108843,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,452212,True,Manta,A,11,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,818590,False,Ambato,A,14,HARDWARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2012410,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1463994,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,463458,True,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,882624,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1104599,False,Manta,A,11,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,371438,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1695907,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1400331,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,165550,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,859932,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1987464,False,Manta,A,11,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1575239,False,Ambato,A,14,PLAYERS AND ELECTRONICS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,866927,False,Guayaquil,A,17,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,215327,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,850334,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2027649,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1464907,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,265258,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1695925,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1473427,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,804098,False,El Carmen,C,3,SEAFOOD,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,999546,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1958249,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1987120,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1464094,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,858872,False,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1958191,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1459514,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1457183,False,Manta,D,13,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1958175,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2030606,False,Manta,A,11,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,155600,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,557257,False,Ambato,A,14,EGGS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1037857,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1281780,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,769312,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,991329,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1166474,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2087978,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2005844,False,Manta,A,11,HOME AND KITCHEN II,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,467808,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1213906,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,464263,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1354714,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1464097,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2109909,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,255161,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,358096,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,583973,False,Manta,A,11,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2048323,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1501541,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,638978,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,881912,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1253765,False,Ambato,A,14,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2011008,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1165989,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,422452,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,323013,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,819209,False,Manta,D,13,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1471722,False,Manta,A,11,PET SUPPLIES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,360313,False,Ambato,A,14,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,401817,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1386220,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1317096,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1239918,True,El Carmen,C,3,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,692531,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1102975,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,103665,False,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,476707,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1230417,False,Manta,A,11,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1463883,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1075891,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1114566,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1695931,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,940585,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,2059799,True,El Carmen,C,3,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1463765,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,742735,False,Manta,A,11,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1922657,False,Manta,D,13,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,968936,False,Ambato,A,14,"LIQUOR,WINE,BEER",0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,903285,False,El Carmen,C,3,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1071928,True,El Carmen,C,3,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,853195,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1464091,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,913968,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1973454,False,Manta,A,11,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,211203,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1990612,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1962824,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,929627,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1489880,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,781794,False,Manta,D,13,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1993337,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1036689,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1457199,False,Guayaquil,A,17,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2087374,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1464210,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,700607,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2028404,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2127114,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,129635,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,913521,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,696183,False,Manta,A,11,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1456995,False,Manta,D,13,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1971365,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1441514,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,168930,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1239795,False,El Carmen,C,3,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1960304,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1421156,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,903284,False,Ambato,A,14,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1464072,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,933780,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,765519,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,829389,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1473488,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1146786,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1464907,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1179119,False,El Carmen,C,3,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1239862,False,Guayaquil,A,17,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1937350,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,633997,False,Manta,D,13,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,583977,False,El Carmen,C,3,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1239911,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1473401,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,2042947,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,464263,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1689929,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1964356,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1093340,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,2010959,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1057034,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,514445,False,Guayaquil,A,17,LINGERIE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,219147,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1038945,False,Ambato,A,14,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,873687,False,Manta,A,11,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,692537,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2010192,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2101795,True,Ambato,A,14,BEAUTY,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1345071,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1146799,True,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2026609,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,269287,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1280677,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2043849,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2042941,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,839544,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1309560,False,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1584575,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,420720,True,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1579081,False,Guayaquil,A,17,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,115693,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,111397,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,364606,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,155625,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1339879,False,Ambato,A,14,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1346637,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,809183,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,523054,False,Manta,D,13,LINGERIE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,559494,True,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1471461,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1080001,False,Ambato,A,14,"LIQUOR,WINE,BEER",0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2081056,False,Ambato,A,14,PREPARED FOODS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,402299,False,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1253470,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1229686,False,Guayaquil,A,17,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1473489,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1176558,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1502383,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,464339,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2026959,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1964804,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,456870,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1084881,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2112404,True,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,518094,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,470760,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1166475,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1047698,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1456912,False,Ambato,A,14,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1464209,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,460804,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,421066,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,770461,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1162755,False,Manta,A,11,EGGS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,946277,False,Ambato,A,14,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,317285,False,Ambato,A,14,GROCERY II,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,582865,False,Manta,A,11,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1134971,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,805311,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1146783,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,740713,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,308726,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,954553,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,119624,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2026256,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1463772,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1012787,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1457518,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1163577,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1464186,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,525887,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1466819,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,872309,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,464907,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1957078,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,743494,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1109390,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,692105,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,401817,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1672580,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1162935,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,838844,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,554152,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1418847,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1696039,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2011328,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1460808,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1473486,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,358264,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,907684,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,414455,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,986193,False,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,311994,False,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,843462,False,Manta,D,13,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2111870,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1709252,True,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,313641,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1121616,False,El Carmen,C,3,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,823245,False,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1909754,False,Ambato,A,14,HOME AND KITCHEN II,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,671066,False,El Carmen,C,3,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1609724,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,114800,False,Guayaquil,A,17,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,302998,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,838215,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,418025,False,Manta,A,11,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,890371,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2048246,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,634010,False,Guayaquil,A,17,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1152348,False,Guayaquil,A,17,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1625605,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,472526,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1696026,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1418846,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1457005,False,Guayaquil,A,17,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,462673,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,508947,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,570922,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1456922,False,Manta,A,11,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,839545,True,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1412392,False,Guayaquil,A,17,"LIQUOR,WINE,BEER",0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,364832,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,567779,False,Ambato,A,14,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1693645,False,Guayaquil,A,17,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,368136,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1473475,False,Guayaquil,A,17,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,843610,True,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1084881,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,852620,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,214862,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,525887,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1040170,False,Manta,D,13,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1047695,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,258396,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,898656,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,757880,True,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1430041,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,464336,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,623316,False,Manta,A,11,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,319093,False,Manta,D,13,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,411487,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1239793,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1696041,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1466826,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1328340,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2088860,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1971436,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1909755,False,Manta,A,11,HOME AND KITCHEN II,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1342003,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2058758,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1695823,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,370042,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,769312,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,847894,False,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,115720,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,913967,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1160882,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,554049,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,459801,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1463798,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1990640,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,507478,False,Manta,A,11,EGGS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,869837,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1964356,False,El Carmen,C,3,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2062477,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1502392,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1585782,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1915036,False,Ambato,A,14,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,258396,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1253765,False,Manta,D,13,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,968432,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1473410,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,819194,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1936589,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,911990,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1940026,False,El Carmen,C,3,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1239905,False,El Carmen,C,3,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,867850,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,315220,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,841197,False,Ambato,A,14,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1239812,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,939662,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,668752,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2061025,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1161572,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,464536,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2026683,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1998889,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1255777,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1936931,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2026501,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2048182,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,567787,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1463707,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,509872,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,871118,False,Ambato,A,14,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1157479,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2034212,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1228319,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,823245,False,Manta,A,11,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,114790,True,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1696022,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1066901,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1576589,False,Guayaquil,A,17,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1047685,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1923218,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1304491,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,830797,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2018273,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1457183,False,El Carmen,C,3,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1916208,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,459762,True,Ambato,A,14,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,362548,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1990194,False,Guayaquil,A,17,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1346638,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,848953,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1975598,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,513855,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2028307,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1316369,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1673297,True,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1930967,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,305229,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1239897,False,Guayaquil,A,17,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1229026,False,Guayaquil,A,17,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2008747,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2034104,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2010049,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,671083,False,Manta,D,13,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1047735,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1348983,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1960691,True,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,991329,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,108952,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,409904,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1235334,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1393033,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,789906,False,El Carmen,C,3,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,354922,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2048246,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1239912,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1239861,False,Guayaquil,A,17,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,2048279,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1114566,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,679603,False,Manta,A,11,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,979197,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,428054,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,851982,False,Ambato,A,14,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1457240,False,Guayaquil,A,17,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,562568,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1970207,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2028403,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1464029,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,406965,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,698643,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1625605,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1489868,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,903284,False,El Carmen,C,3,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1958185,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2010667,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1971423,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,258268,False,Guayaquil,A,17,EGGS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1987152,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1331068,False,Manta,D,13,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2061404,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,265279,False,Ambato,A,14,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1937662,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2028754,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1576325,False,Manta,A,11,CELEBRATION,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1036189,False,Manta,A,11,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1999969,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1463936,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1979268,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,463598,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1464041,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,839364,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1149579,False,Manta,A,11,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,577740,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1309672,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2054101,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,844795,True,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1489836,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,872310,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1147495,True,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,265237,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1464073,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1986760,False,Ambato,A,14,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,273859,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1096235,False,Manta,A,11,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1342008,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1726000,True,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1239739,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1397062,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,564534,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2060910,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,454326,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,846565,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,843608,True,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,179564,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1930967,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,454596,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1473478,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,559044,False,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,575675,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1457003,False,Guayaquil,A,17,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1147731,False,El Carmen,C,3,AUTOMOTIVE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,305341,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,405304,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1075891,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1751175,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2002043,False,Ambato,A,14,MAGAZINES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,302998,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1371620,False,Manta,A,11,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1464093,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2013086,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1695956,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1427659,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,314384,True,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1458849,True,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,456870,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,804503,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1005458,False,Ambato,A,14,LINGERIE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1459515,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1981900,False,Manta,A,11,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,214860,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1146786,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,108952,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,692537,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,838216,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1458920,False,Manta,A,11,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,819230,False,Manta,D,13,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1696021,False,Guayaquil,A,17,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1354380,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1689920,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,559682,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1975686,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1457341,False,Manta,D,13,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,414752,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1390352,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1239840,False,El Carmen,C,3,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,208426,False,Manta,A,11,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1346631,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,959502,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1987709,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1951042,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,221506,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1038952,False,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2123791,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1246784,True,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1239782,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1695950,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,115850,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,812735,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,641042,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2004738,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,406965,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,220435,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,521818,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,946671,False,Ambato,A,14,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,464263,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,215370,False,Ambato,A,14,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1458850,True,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,957098,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1976260,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2033699,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,916886,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1975649,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,564110,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,564287,False,El Carmen,C,3,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,209085,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1047772,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1970094,False,El Carmen,C,3,AUTOMOTIVE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2047211,True,Ambato,A,14,"LIQUOR,WINE,BEER",0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1489895,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,938574,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1936173,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2047752,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,464940,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1949898,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,158789,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,586967,False,Guayaquil,A,17,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1075891,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,312113,False,Ambato,A,14,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1361205,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1047775,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1965853,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1463773,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,179564,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1038950,False,Manta,A,11,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1937454,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,812751,False,Ambato,A,14,"LIQUOR,WINE,BEER",0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1146795,True,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1457001,False,Guayaquil,A,17,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1372309,False,Ambato,A,14,HOME AND KITCHEN I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,165718,False,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1346624,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,583925,False,Manta,A,11,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1166478,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1119217,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2013621,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,819194,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,820645,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1089820,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1930065,True,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1161556,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1489660,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,363895,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1080756,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2035581,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1121514,True,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,692106,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,404454,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1047705,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1047690,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1457181,False,Manta,D,13,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1254013,False,Ambato,A,14,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,252970,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1463555,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1968452,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,838408,True,El Carmen,C,3,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1696020,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,807493,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1346629,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1621528,True,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1472487,False,Guayaquil,A,17,PET SUPPLIES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1464029,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1987653,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1033395,True,El Carmen,C,3,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1239782,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,954796,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2016419,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1464087,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1464025,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1114754,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1695830,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,223434,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,758861,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,655749,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1089843,False,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1151128,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1333224,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2010511,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1695820,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1463864,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2008518,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1239841,False,El Carmen,C,3,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2061033,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,155601,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1741423,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,226126,True,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1695837,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,688279,False,Manta,D,13,"LIQUOR,WINE,BEER",0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1245918,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1987120,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2016716,False,Guayaquil,A,17,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1971317,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,268446,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,355090,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1404385,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1464073,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1104725,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1968073,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,584076,False,Manta,A,11,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1717269,True,Ambato,A,14,SCHOOL AND OFFICE SUPPLIES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,114790,True,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1463790,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,315220,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,457471,False,El Carmen,C,3,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1047394,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1386506,False,Manta,A,11,HOME AND KITCHEN I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1956479,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1117661,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1246785,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,692105,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1906821,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,418235,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1143686,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,660502,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2011218,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,575875,False,Manta,D,13,EGGS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2031273,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,804932,True,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,315463,False,Ambato,A,14,GROCERY II,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1313223,False,Manta,A,11,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1239740,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1047679,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1464090,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2001183,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1047751,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1471461,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,577745,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1174923,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,939207,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1503844,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1903500,False,Manta,A,11,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1148719,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1387609,False,Manta,A,11,HOME AND KITCHEN II,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1464079,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,781798,False,Manta,A,11,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1463866,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1304488,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,314880,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,268676,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1239746,True,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,850460,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1239898,False,Ambato,A,14,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1009997,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2010428,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,517906,False,Manta,A,11,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1072167,False,Guayaquil,A,17,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,987308,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1686644,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,268662,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2026444,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,173111,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1171140,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1325330,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1695845,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1092106,False,Guayaquil,A,17,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2048624,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,114799,False,Guayaquil,A,17,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,557408,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,208386,False,Guayaquil,A,17,EGGS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,830749,True,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,996537,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2049081,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1695904,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,794245,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2060910,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,872307,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,268676,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,584028,False,Manta,D,13,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,913363,False,Manta,A,11,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1457217,False,Manta,D,13,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,843411,True,El Carmen,C,3,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,464302,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1964850,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,979196,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2043849,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,740723,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1986825,False,Ambato,A,14,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2060787,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1372566,False,Ambato,A,14,HOME AND KITCHEN I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,819228,False,Guayaquil,A,17,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,2043795,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1344514,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1261376,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1473474,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1913464,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1246493,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,220435,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,651326,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2047752,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1239901,False,Manta,D,13,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1005458,False,Guayaquil,A,17,LINGERIE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,173111,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1457201,False,Ambato,A,14,HOME CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1939424,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,804974,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,890213,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1153584,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2029519,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1441513,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1993337,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1466288,True,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1309298,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,513379,False,El Carmen,C,3,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,838415,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1943792,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1418844,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,2011225,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1117663,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,789904,False,Manta,A,11,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,315277,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1751175,False,Ambato,A,14,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,641627,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2048399,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1970428,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1242667,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1464005,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,958516,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2002412,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1148972,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1087270,False,Manta,A,11,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,841842,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1459058,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1473393,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,360313,False,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1473411,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1260241,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1047679,False,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1345072,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1464188,False,Manta,A,11,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,789224,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2089250,False,Manta,D,13,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,507641,False,Ambato,A,14,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,687549,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1909729,False,Guayaquil,A,17,HOME AND KITCHEN II,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1105215,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2010329,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,305081,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,959502,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1913463,False,Guayaquil,A,17,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1158719,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,502182,False,Ambato,A,14,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1473476,False,Manta,A,11,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,510055,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,279157,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,648313,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1463886,False,Manta,D,13,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,258395,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1239846,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,949298,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,2010918,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,2011266,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,2109909,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,938570,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,315473,False,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,872309,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1463437,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,751759,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1975562,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,378330,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,890214,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1224521,False,Guayaquil,A,17,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,2030447,False,Ambato,A,14,POULTRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,464356,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,1473480,True,El Carmen,C,3,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+52,1970831,False,Manta,A,11,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1473403,False,Manta,D,13,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,264576,False,Ambato,A,14,FROZEN FOODS,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,991331,False,El Carmen,C,3,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1686652,False,Guayaquil,A,17,PRODUCE,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1900715,False,Guayaquil,A,17,PERSONAL CARE,0,Holiday,Local,False,47.57,8,2017,Tuesday
+54,224081,False,El Carmen,C,3,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+52,211205,False,Manta,A,11,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,402175,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,645294,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1092008,False,Guayaquil,A,17,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,633996,False,Ambato,A,14,MEATS,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,2061025,True,El Carmen,C,3,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,849136,False,Manta,D,13,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+53,1466826,False,Manta,D,13,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,570917,False,Guayaquil,A,17,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+51,1239739,False,Guayaquil,A,17,DAIRY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1463866,False,Ambato,A,14,BEVERAGES,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,513855,False,Ambato,A,14,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday
+50,1920072,False,Ambato,A,14,GROCERY I,0,Holiday,Local,False,47.57,8,2017,Tuesday
+53,265279,False,Manta,D,13,BREAD/BAKERY,1,Holiday,Local,False,47.57,8,2017,Tuesday
+54,844017,False,El Carmen,C,3,DELI,1,Holiday,Local,False,47.57,8,2017,Tuesday
+51,982727,False,Guayaquil,A,17,CLEANING,0,Holiday,Local,False,47.57,8,2017,Tuesday

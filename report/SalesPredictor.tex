@@ -1,0 +1,197 @@
+% !TeX document-id = {730e03c6-1c56-4ca1-8071-535c6e1c3188}
+
+%%%%%%
+%
+% $Author: Deepti, Sadegh and Raunak $
+% $Datum: 2023-04-29  $
+% $Pfad: BA23-02-Sales-Predictor/report/SalesPredictor.tex $
+% $Version: 1.0 $
+% $Reviewed by: Deepti, Sadegh and Raunak $
+% $Review Date: 2023-05-05 $
+%
+% !TeX encoding = utf8
+% !TeX root = Rename
+% !TeX TXS-program:bibliography = txs:///bibtex
+%
+%%%%%%
+
+
+\documentclass[12pt,a4paper]{scrbook}
+
+% Auswahl der Sprache/Language selection
+% Die nicht gewünschte Sprache muss auskommentiert werden:/The language that is not desired must be commented out:
+%\def\isGerman{1}
+\usepackage{graphicx}
+
+\usepackage{listings}
+\usepackage{xcolor}
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour}, commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+\lstset{style=mystyle}
+
+%Flowchart Tikz
+%\usepackage{amsmath}
+%\usepackage{color,pxfonts,fix-cm}
+%\usepackage{latexsym}
+%\usepackage[mathletters]{ucs}
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8x]{inputenc}
+%\usepackage{pict2e}
+%\usepackage{wasysym}
+%\usepackage[english]{babel}
+%\usepackage{tikz}
+%
+%\pagestyle{empty}
+%%\usepackage[margin=0in,paperwidth=400pt,paperheight=800pt]{geometry}
+%\graphicspath{{/app/}}
+
+%\include{General/tikzdefs}
+
+
+\def\isEnglish{1}
+
+
+\include{General/Packages}
+\include{General/commands}
+\include{General/tikzdefs}
+
+\input{General/acronyms}
+\input{General/Hyphenations}%
+
+\addbibresource{../Documents/literature.bib}
+\addbibresource{../Documents/MyLiterature.bib}
+
+\begin{document}
+ 
+
+\InputLanguage{Contents/}{Titlepage} 
+\newpage
+
+\pagenumbering{roman}
+
+\tableofcontents
+\cleardoublepage
+
+
+\listoffigures
+\cleardoublepage
+
+%\lstinputlisting[language=Python]
+%\lstlistoflistings
+%\cleardoublepage
+
+\listoftables
+\cleardoublepage
+
+\addcontentsline{toc}{chapter}{Acronyms}
+\printacronyms
+\cleardoublepage
+ 
+
+%\InputLanguage{Contents/}{Symbols}
+
+\printnomenclature
+\cleardoublepage
+
+
+ 
+\pagenumbering{arabic}
+
+\InputLanguage{Contents/}{Introduction}
+
+\newpage
+\InputLanguage{Contents/}{DomainKnowledge}
+
+\newpage
+\InputLanguage{Contents/}{TechnicalRequirements}
+
+\newpage
+\InputLanguage{Contents/}{Algorithms}
+
+\newpage
+\InputLanguage{Contents/}{KDDProcess}
+
+\newpage
+\InputLanguage{Contents/}{DocumentationDev}
+
+\newpage
+\InputLanguage{Contents/}{Development}
+
+\newpage
+\InputLanguage{Contents/}{Deployment}
+
+\newpage
+\InputLanguage{Contents/}{DevelopmentToDeployment}
+
+\newpage
+\InputLanguage{Contents/}{TestFunctions}
+
+\newpage
+\InputLanguage{Contents/}{FlowChart}
+
+\newpage
+\InputLanguage{Contents/}{Packages}
+
+\newpage
+\InputLanguage{Contents/}{Pandas}
+
+\newpage
+\InputLanguage{Contents/}{Numpy}
+
+\newpage
+\InputLanguage{Contents/}{Matplotlib}
+
+\newpage
+\InputLanguage{Contents/}{Monitoring}
+
+\newpage
+\InputLanguage{Contents/}{Application}
+
+\newpage
+\InputLanguage{Contents/}{DevelopmentEnvironment}
+
+\newpage
+\InputLanguage{Contents/}{DataVersionControl}
+
+\newpage
+\InputLanguage{Contents/}{ToDo}
+
+\newpage
+\InputLanguage{Contents/}{Challenges}
+
+\newpage
+\InputLanguage{Contents/}{Conclusion}
+
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\TRANS{Literaturverzeichnis}{Bibliography}}
+\printbibliography
+
+
+\cleardoublepage
+
+%\renewcommand{\indexname}{\TRANS{Stichwortverzeichnis}{Index}}
+%\addcontentsline{toc}{chapter}{\TRANS{Stichwortverzeichnis}{Index}}
+\printindex
+\end{document}

@@ -1,0 +1,137 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% $Author: Raunak Shahare $
+% $Datum: 2023-06-29  $
+% $Pfad: BA23-02-Sales-Predictor/report/Contents/en/DevelopmentToDeployment.tex $
+% $Version: 1.0 $
+% $Reviewed by: Deepti, Sadegh and Raunak $
+% $Review Date: 2023-06-30 $
+%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\chapter{From Development to Deployment}
+
+\section{Tools}
+
+To get started with the Sales Prediction codebase, the following tools and packages were used:
+
+	\begin{itemize}
+		\item \textbf{PyCharm:} PyCharm is an Integrated Development Environment (IDE) for Python. It provides a user-friendly interface for writing, debugging, and running Python code.
+		
+		\item \textbf{Pandas:} Pandas is a powerful library for data manipulation and analysis. It provides data structures and functions for efficiently working with structured data.
+		
+		\item \textbf{NumPy:} NumPy is a fundamental package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays.
+		
+		\item \textbf{Matplotlib:} Matplotlib is a plotting library for Python. It provides a wide range of tools for creating visualizations, including line plots, scatter plots, bar plots, histograms, and more.
+		
+		\item \textbf{XGBoost:} XGBoost is an open-source gradient boosting library. It implements the gradient boosting framework and provides a high-performance implementation of the XGBoost algorithm, which is known for its speed and accuracy in machine learning tasks.
+		
+		\item \textbf{scikit-learn:} Scikit-learn is a machine learning library for Python. It provides a wide range of tools and algorithms for classification, regression, clustering, and dimensionality reduction.
+	\end{itemize}
+
+\section{Saving the model}
+
+\subsection{Saving the XGBoost Model}
+
+To save the XGBoost model for sales prediction, the \texttt{pickle} module in Python was imported.
+
+The trained model was saved using \texttt{pickle} as follows:
+
+\begin{lstlisting}[language=Python]
+	
+	import pickle
+	
+	# Save the trained model
+	filename = 'sales_prediction_model.sav'
+	pickle.dump(model, open(filename, 'wb'))
+	
+	
+\end{lstlisting}
+
+In the code above, the \texttt{with} statement ensured that the file was automatically closed after writing. The model object was saved in a file named \texttt{sales\_prediction\_model.pkl} using the \texttt{pickle.dump()} function.
+
+The XGBoost model was saved in the pickle format, allowing it to be loaded and used for making predictions later.
+
+\subsection{Loading the Saved Model}
+
+To load the saved model and use it for predictions, the following steps were taken:
+
+\begin{lstlisting}[language=Python]
+	
+	# Load the saved model
+	loaded_model = pickle.load(open(filename, 'rb'))
+	
+\end{lstlisting}
+
+In the code above, the \texttt{pickle.load()} function was used to load the model object from the saved file.
+
+After loading the model, it could be used to make predictions on new data by calling the \texttt{predict()} method:
+
+\begin{lstlisting}[language=Python]
+	
+	# New data stored in a variable named 'new_data'
+predictions = model.predict(new_data)
+	
+\end{lstlisting}
+
+It's important to note that the file paths and names needed to be updated according to the preferred location and naming conventions when saving and loading the model.
+
+
+
+
+\section{File structure}
+
+The file structure of the sales prediction project is as follows:
+
+\begin{lstlisting}[language=Python]
+	
+- Data/
+- holidays_events.csv
+- items.csv
+- oil.csv
+- sales.csv
+- stores.csv
+- transactions.csv
+- Figure_Output/
+- TrueSalesvsPredicted.png
+- development.py
+	
+\end{lstlisting}
+
+The 'Data/' directory contains the necessary input datasets for the sales prediction model, including information about holidays, items, oil prices, sales, stores, and transactions. The 'Figure\_Output/' directory stores the generated visualization of the true sales vs predicted sales. The 'development.py' file contains the code for data loading, data blending, data transformation, model fitting, and evaluation.
+
+\section{Loading the model}
+
+The trained XGBoost regression model for sales prediction is loaded using the following code:
+
+\begin{lstlisting}[language=Python]
+	
+	from xgboost import XGBRegressor
+	import pickle
+	
+	# Load the model
+	model = pickle.load(open('model.pickle', 'rb'))
+		
+\end{lstlisting}
+
+The 'XGBRegressor' class from the 'xgboost' package is used to define the model. The 'pickle' module is utilized to load the serialized model object from the 'model.pickle' file.
+
+\section{Description of the Process}
+
+\begin{enumerate}
+	\item \textbf{Data Loading:} The project begins with loading the required datasets into separate Pandas DataFrames. The datasets include information about stores, items, transactions, oil prices, holidays, and historical sales.
+	
+	\item \textbf{Data Blending:} The sales data is merged with additional information from other datasets, such as stores, items, holidays, and oil prices. This consolidation enhances the dataset with relevant features for accurate sales prediction. The blending process involves merging the dataframes based on key columns.
+	
+	\item \textbf{Data Transformation Techniques:} Various data transformation techniques are applied to the blended dataset. One-hot encoding is used to convert categorical variables into numerical representations. Additionally, the target variable and selected input features are re-scaled to ensure that the data is within a consistent range for model training.
+	
+	\item \textbf{Regression Model Fitting:} An XGBoost regression model is trained on the preprocessed sales data. The data is split into training and testing sets, and the model is fit to the training data. The trained model is then used to make predictions on the test data.
+	
+	\item \textbf{Model Evaluation and Visualization:} The performance of the trained model is evaluated using metrics such as the R2 score and mean squared error (MSE). A scatter plot is generated to compare the true sales values with the predicted sales values, allowing for visual assessment of the prediction accuracy. The resulting evaluation and visualization are depicted in the provided Prediction.png diagram.
+	
+	\item \textbf{Data Monitoring:} Monitoring functionalities are included in the code to check for missing values in the loaded dataframes. The code displays the number of missing values for each dataframe, enabling users to identify and handle missing data effectively.  
+\end{enumerate}
+
+

@@ -1,0 +1,37 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% $Author: Raunak Shahare $
+% $Datum: 2023-04-24  $
+% $Pfad: BA23-02-Sales-Predictor/report/Contents/en/Challenges.tex $
+% $Version: 1.0 $
+% $Reviewed by: Deepti, Sadegh and Raunak $
+% $Review Date: 2023-05-05 $
+%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Challenges and Open Questions}
+
+Some of the challenges that one can face while performing regression analysis of a huge sales data are as follows:
+
+Overfitting: One common issue with using multiple regression algorithms is the risk of overfitting the model to the data. Overfitting occurs when the model is too complex and fits the training data too closely, which leads to poor performance on new data. One way to avoid overfitting is to use regularization techniques like L1 or L2 regularization, which help to constrain the model's complexity and prevent it from overfitting the data.
+
+Selection bias: The choice of algorithms used can introduce selection bias if only a subset of algorithms is used or if certain algorithms are given more weight than others. This can be addressed by using a diverse set of algorithms and evaluating them based on their performance metrics. For example, using a combination of linear regression, decision trees, and neural networks can help to avoid selection bias. \cite{Jindong:2019}
+
+Model interpretability: Another challenge with using multiple regression algorithms is that some models may be more interpretable than others. For example, linear regression is generally more interpretable than decision trees or neural networks. It is important to consider the interpretability of the model when choosing the algorithms to use, especially if the results need to be communicated to non-technical stakeholders.
+
+Feature selection: Another challenge when working with sales data is selecting the right features to include in the analysis. It is important to choose features that are relevant to the problem being solved, and to avoid including redundant or irrelevant features. This can be done by performing feature selection using techniques like correlation analysis, principal component analysis, or feature importance ranking.
+
+Scaling: Some regression algorithms may be sensitive to the scale of the data, which can lead to biased results. For example, algorithms like K-nearest neighbors or support vector regression may require scaling of the data to work properly. It is important to scale the data appropriately before applying the algorithms to avoid biased results.
+
+Trade-off between accuracy and simplicity: One of the key open questions when using multiple regression algorithms is the trade-off between accuracy and simplicity. Some algorithms may be more accurate than others, but they may also be more complex and difficult to implement. It is important to consider the requirements of the problem being solved when choosing between accuracy and simplicity.
+
+Some of the open questions while doing this project are as follows:
+
+\begin{enumerate}
+	\item How can we combine multiple regression models to improve accuracy? Ensemble techniques like bagging, boosting, and stacking can be used to combine the results of multiple regression models to improve accuracy. However, it is an open question how to determine the optimal way to combine models and which models should be used.
+	
+	\item How can we handle missing data in sales datasets? Missing data is a common issue in sales datasets, and it is an open question how to handle this data in regression models. There are several techniques for imputing missing data, including mean imputation, regression imputation, and multiple imputation, but it is not clear which technique is best suited for sales data.
+	
+	\item How can we improve the interpretability of regression models for sales data? Some regression models, such as decision trees and neural networks, can be difficult to interpret. It is an open question how to improve the interpretability of these models for sales data, particularly when communicating the results to non-technical stakeholders.
+
+\end{enumerate}

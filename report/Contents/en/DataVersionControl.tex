@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% $Author: Raunak Shahare $
+% $Datum: 2023-06-29  $
+% $Pfad: BA23-02-Sales-Predictor/report/Contents/en/DataVersionControl.tex $
+% $Version: 1.0 $
+% $Reviewed by: Deepti and Sadegh  $
+% $Review Date: 2023-06-30 $
+%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\chapter{Data Version Control}
+
+\section{Plan}
+
+The purpose of this plan was to establish a comprehensive data version control process for the sales prediction project. The goal was to ensure that all data used in the project was properly managed, tracked, and documented to maintain data integrity and facilitate collaboration among individuals.
+	
+	\begin{enumerate}[label=\textbf{\arabic*.}]
+		\item \textbf{Evaluation of Version Control Systems:} The evaluation of different version control systems was conducted to determine the most suitable one for the project. After considering various options, including Git, Mercurial, and Subversion, Git was chosen due to its robust features, wide adoption, and compatibility with popular online platforms.
+		
+		\item \textbf{Installation of Git:} Git was installed on the local machines by following the official documentation. This installation allowed the use of Git commands to track and manage changes to data files effectively.
+		
+		\item \textbf{Remote Repository Setup:} A remote repository was created on an online platform such as GitHub or Bitbucket to establish a central hub for storing and sharing project files. This repository served as a collaborative space where individuals could contribute to the project and access the latest versions of data files.
+		
+		\item \textbf{Repository Initialization:} The Git repository was initialized in the project directory by executing the necessary commands. This initialization process created a ".git" directory that tracked changes to files within the repository.
+		
+		\item \textbf{Identification of Critical Data Files:} The critical data files that needed to be version controlled were identified. These files included "stores.csv," "items.csv," "transactions.csv," "oil.csv," "holidays\_events.csv," and "trainnew.csv."
+		
+		\item \textbf{Initial Commit:} The identified files were committed to the Git repository, creating an initial version for each file. This commit served as the starting point for tracking changes to the data files.
+		
+		\item \textbf{Branching Strategy:} A branching strategy was established to facilitate parallel development and prevent conflicts. Each individual created a separate branch for working on specific features or tasks. This branching approach allowed individuals to work independently and merge their changes back into the main branch when ready.
+		
+		\item \textbf{Tracking Changes:} As the project progressed, updates and modifications were made to the data files. Whenever changes were made to a file, Git commands were used to track and manage those changes. This included adding modified files to the staging area and creating commits with descriptive messages explaining the changes made.
+		
+		\item \textbf{Collaboration and Code Review:} Collaboration on the project was done by sharing branches and code changes with each other. Regular code reviews were conducted to ensure code quality and adherence to established guidelines. Feedback and suggestions were provided to improve the data version control process.
+		
+		\item \textbf{Pulling and Pushing Changes:} To keep local repositories up to date with the remote repository, the latest changes were regularly pulled from the remote repository using the "git pull" command. This command fetched the latest changes and merged them into the local branch. When ready to share local changes with the rest of the team, individuals pushed their commits to the remote repository using the "git push" command.
+		
+		\item \textbf{Conflict Resolution:} In cases where conflicting changes occurred, conflicts were resolved by reviewing and adjusting the conflicting lines in the affected files. Git provided tools for conflict resolution, allowing individuals to merge conflicting changes and maintain data integrity.
+		
+		\item \textbf{Documentation:} Throughout the data version control process, documentation was maintained to record the changes made to the data files. This documentation included detailed commit messages that described the modifications, ensuring a clear history of file modifications.
+	\end{enumerate}
+	
+	By following this detailed plan, the individuals involved successfully implemented data version control using Git, enabling effective collaboration, data integrity maintenance, and reproducibility throughout the sales prediction project.
+	
+
+	
+\section{Installation}
+
+The installation process for data version control was carried out to ensure that all individuals involved had the necessary tools and software installed on their local machines to effectively track and manage changes to data files. The following steps were followed for the installation:
+	
+	\begin{enumerate}[label=\textbf{\arabic*.}]
+		\item \textbf{Evaluation of Version Control Systems:} Initially, different version control systems such as Git, Mercurial, and Subversion were evaluated. After careful consideration, the decision was made to use Git due to its popularity, robust features, and compatibility with online platforms.
+		
+		\item \textbf{Git Installation:} Each person proceeded to install Git on their local machine. The official documentation was followed, and the appropriate Git installer for their operating system was downloaded.
+		
+		\item \textbf{Installer Execution:} The Git installer was run, and the installation wizard's prompts were followed to complete the installation process. The desired installation location was selected, and the recommended configuration options were chosen.
+		
+		\item \textbf{Verification of Installation:} After the installation was completed, the Git installation was verified by opening a command-line interface and running the \texttt{git --version} command. This command displayed the installed Git version, confirming a successful installation.
+		
+		\item \textbf{Configuration Setup:} To ensure that Git operated correctly and identified individuals accurately, each person configured their Git installation with their name and email address. The \texttt{git config} command was executed, providing the necessary details.
+		
+		\item \textbf{Remote Repository Setup:} To establish a central repository for collaboration, a remote repository was created on an online platform such as GitHub or Bitbucket. This repository would serve as a hub for storing and sharing project files.
+		
+		\item \textbf{Clone Repository:} Once the remote repository was set up, the repository was cloned to the local machines. The desired directory was navigated, and the \texttt{git clone} command was executed, providing the repository's URL.
+		
+		\item \textbf{Initialization of Local Repository:} Within the project directory, a local Git repository was initialized. The \texttt{git init} command was run, creating a ".git" directory to track changes to files within the repository.
+		
+		\item \textbf{Configuration of Remote Repository:} To establish a connection between the local and remote repositories, the remote repository URL was configured. The \texttt{git remote} command was used, specifying the remote repository's name and URL.
+		
+		\item \textbf{Verification of Remote Setup:} The remote setup was verified by executing the \texttt{git remote -v} command, which displayed the configured remote repository's details.
+	\end{enumerate}
+	
+	By completing the detailed installation process described above, the individuals involved successfully installed Git, established a connection with the remote repository, and were ready to commence data version control for the sales prediction project.
+	
+
+
+	
+
+
+	
+
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+	

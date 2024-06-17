@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% $Author: Deepti Hegde $
+% $Datum: 2023-06-28  $
+% $Pfad: BA23-02-Sales-Predictor/report/Contents/en/Packages.tex $
+% $Version: 1.0 $
+% $Reviewed by: Deepti, Sadegh and Raunak $
+% $Review Date: 2023-07-03 $
+%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Numpy Package}
+
+
+\section{Introduction}
+
+NumPy is a package that extends the functionality of the Python programming language, providing support for creating and manipulating large, multi-dimensional arrays and matrices. It also includes a comprehensive collection of mathematical functions that can be used to perform operations on these arrays with ease. [\cite{Harris:2020}] It provides functionality for numerical operations, linear algebra, and Fourier transforms.
+
+NumPy is a strong Python package that is commonly used in scientific computing and data processing. ‘Travis Oliphant’ designed NumPy in 2005. NumPy is an abbreviation for Numerical Python and it is an open source project that we are free to use. 
+
+NumPy library is for handling arrays. The ‘ndarray’ (N-dimensional array) object is NumPy's defining feature, allowing us to effectively store and process huge, homogeneous datasets. It also has functions for working with linear algebra, the Fourier transform, and matrices. Moreover, it is a fundamental component of many scientific libraries and applications.[add cite]
+
+\section{Description }
+NumPy (Numerical Python) is a popular Python library that provides support for large, multi-dimensional arrays and matrices, along with an extensive collection of mathematical functions to operate on these arrays. It adds the capabilities of N-dimensional arrays, element-by-element operations (broadcasting), core mathematical operations like linear algebra, and the ability to wrap C/C++/Fortran code \cite{Harris:2020}.
+
+
+\begin{enumerate}
+	
+	\item \textbf{Data suitability}
+	
+	The data the suitability of the NumPy package is based on its ability to handle numerical data efficiently, conduct various mathematical computations, enable linear algebra operations, integrate with other libraries, and give performance advantages for large-scale data processing. Because of these characteristics, it is a crucial tool for scientific computing, data analysis, and machine learning activities.
+	
+	
+	\item \textbf{The NumPy package's key features and functions} 
+	
+	\begin{enumerate}
+		
+		\item \textbf{ndarray}
+		
+		The NumPy package enables users to overcome the shortcomings of the Python lists by providing a data storage object called ndarray. The ndarray is similar to lists, but rather than being highly flexible by storing different types of objects in one list, only the same type of element can be stored in each column \cite{NumPy2008}. 
+		
+		\item \textbf{Array Creation and Manipulation}
+		
+		NumPy provides functions to create arrays with different dimensions, shapes, and initial values. You can create arrays filled with zeros, ones, or random values using functions like numpy.zeros(), numpy.ones(), and numpy.random. NumPy also offers numerous operations to manipulate and reshape arrays, including slicing, indexing, concatenation, and splitting.
+		
+		\item \textbf{Mathematical Functions and Operations}
+		
+		NumPy includes a large variety of mathematical functions that are optimised for array operations. Basic arithmetic operations (addition, subtraction, multiplication, and division), trigonometric functions, exponential functions, logarithmic functions, and other functions are included. It also supports efficient array element-wise operations and reducing the need for explicit loops.
+		
+		\item \textbf{Linear Algebra}
+		
+		NumPy provides extensive support for linear algebra operations. It includes functions for matrix and vector operations, such as matrix multiplication (numpy.dot()), matrix inversion (numpy.linalg.inv()), eigenvalues and eigenvectors (numpy.linalg.eig()), singular value decomposition (numpy.linalg.svd()), and more. These functions simplify complex linear algebra computations.
+		
+		\item \textbf{Random Number Generation}
+		NumPy features a random module (numpy.random) that contains functions for generating random numbers and random arrays with various probability distributions. This module is very beneficial for simulations, statistical analysis, and the generation of synthetic data.
+		
+		
+		\item \textbf{Integration with Other Libraries}
+		
+		NumPy works well with other scientific computing libraries including SciPy, Matplotlib, pandas, and scikit-learn. It provides the cornerstone for these libraries, allowing for efficient data sharing, analysis, and visualisation \cite{oliphant2006}.
+		
+	\end{enumerate}
+	
+\end{enumerate}
+
+\section{Installation}
+
+NumPy supports multiple versions of Python, including both Python 2 and Python 3.
+
+\begin{itemize}
+	
+	\item Newer versions of NumPy  may not work with Python 2. If users are using Python 2, they should stick to older versions of NumPy (prior to 1.17.0) that still provide compatibility.
+	
+	\item NumPy has full support for Python 3. NumPy versions starting from 1.17.0 and onward officially support Python 3.5 and above. 
+	
+	\item Open a command prompt or terminal on your computer.
+	
+	\item Ensure that you have Python installed on your system. You can check this by running the following command:
+	
+	\begin{lstlisting}[language=Python]
+		
+		python --version
+	\end{lstlisting}
+	
+\end{itemize}
+
+\begin{enumerate}
+	
+	\item \textbf{Installing NumPy suing pip package}
+	
+	We can  install NumPy using the pip package manager, which is usually bundled with Python. 
+	
+	\begin{lstlisting}[language=Python]
+		
+		pip install numpy
+	\end{lstlisting}
+	
+	This command will fetch the latest version of NumPy from the Python Package Index (PyPI) and install it on your system.
+	
+	\item \textbf{Installing NumPy suing conda package}
+	
+	Make sure you have 	 in the system. After, we can create a new environment or use an existing one to install NumPy. It is recommended to create a new environment to keep your packages isolated \cite{oliphant2006}. 
+	
+	\begin{lstlisting}[language=Python]
+		
+		# Best practice, use an environment rather than install in the base env
+		conda create -n my-env
+		conda activate my-env	#For Windows
+		
+		source activate myenv	#For Linux and macOS
+		
+		# If you want to install from conda-forge
+		conda config --env --add channels conda-forge
+		
+		# The actual install command
+		conda install numpy
+	\end{lstlisting}
+	
+\end{enumerate}
+
+
+\section{Manual}
+
+	\subsection{How to imprt}
+	
+		Once the installation is finished, we can verify if NumPy is installed correctly. Open a Python interpreter or create a Python script, and type the following code:
+	
+		\begin{lstlisting}[language=Python]
+			
+			import numpy as np
+			print(np.__version__)
+		\end{lstlisting}
+		
+		This code imports the NumPy package and prints its version number. The one we are using in this project is version of \textbf{numpy - 1.24.1.} If NumPy is installed correctly, you will see the version number printed on the screen. We are saving all files with \textbf{.py} extension.
+	
+	\subsection{Important attributes of Numpy}
+	
+		The below are few attributes of Numpy \cite{NumPy2008},
+			
+		\begin{itemize}
+		
+			\item \textbf{shape}:
+			The shape attribute represents the dimensions of the array, indicating the size of each dimension. It is a tuple that specifies the length of the array along each axis. 
+			
+			\item \textbf{dtype}:
+			The dtype attribute specifies the data type of the elements in the array. It indicates the type of the array's values, such as integer, float, boolean, etc. NumPy supports a variety of data types, and the dtype attribute helps ensure consistent data storage and operations.
+			
+			\item \textbf{ndim}:
+			The ndim attribute indicates the number of dimensions or axes in the array. 
+			
+			\item \textbf{size}:
+			The size attribute provides the total number of elements in the array. It is the product of the lengths of all dimensions. 
+			
+			\item \textbf{itemsize}:
+			The itemsize attribute represents the size in bytes of each element in the array. It indicates the memory occupied by each array element.
+			
+			\item \textbf{nbytes}:
+			The nbytes attribute specifies the total number of bytes consumed by the array. It is calculated by multiplying the size of the array (in elements) by the itemsize.
+			
+			\item \textbf{data}:
+			The data attribute is a buffer that points to the start of the array's data. It is an object that allows access to the underlying data of the array.
+			
+		\end{itemize}
+	
+	\subsection{Examples}
+	
+		\begin{lstlisting}[language=Python]
+			
+	import numpy as np
+	
+	#specifying the data types
+	dtypes = {'store_nbr': np.dtype('int64'),
+		'item_nbr': np.dtype('int64'),
+		'unit_sales': np.dtype('float64'),
+		'onpromotion': np.dtype('O')}
+	
+	# np unique, here we are checking data is unique or not. If yes, returing true
+	np.unique(data[variable], return_counts=True)
+	
+	#ranging and shaping the data (reshaping the labels in the dataset)
+	a = np.arange(15).reshape(3, 5)
+	np.reshape(labels_raw_np.shape[0], 1)
+	
+	#creating an array in general 
+	array([[ 0,  1,  2,  3,  4],
+	[ 5,  6,  7,  8,  9],
+	[10, 11, 12, 13, 14]])
+	
+	a.shape				 # dimensions of the array
+	
+	a.ndim				  # number of dimensions or axes in the array
+	
+	a.dtype.name	# specifies the data type of the elements in the array
+	
+	a.itemsize			# the size in bytes of each element in the array
+	
+	a.size					# returning the array size 
+	
+	# example from our code to create an array of unique values and counts
+	np.array((unique_vals, counts))
+			
+		\end{lstlisting}
+	
+	\subsection{NumPy Error Handling}
+	
+		\begin{enumerate}
+		
+			\item \textbf{Floating-Point Errors}
+		
+				\begin{itemize}
+			
+					\item \textbf{FloatingPointError: overflow encountered in exp}
+					
+					We then calculated np.exp(1000), which results in a floating-point overflow because the result of the calculation is too large to be represented by the floating-point data type.
+					
+					\item \textbf{FloatingPointError: invalid value encountered in sqrt}
+					
+					Here, we attempted to take the square root of -1, which is an invalid floating-point operation.
+					
+					\item \textbf{FloatingPointError: divide by zero encountered in true divide}
+					
+					This means when np.divide() encounters division by zero during the calculation, it will raise the FloatingPointError error.
+			
+				\end{itemize}
+		
+			\item \textbf{runtimewarning: divide by zero encountered in divide}
+		
+			As we have set the invalid='raise', NumPy will raise a FloatingPointError.
+			
+			Here, we have placed the code that could potentially raise an exception within the try block. When an exception occurs in the try block, it's caught by the except block.
+			
+			The try and except block must work together to handle the exception.
+		
+	\end{enumerate}
+	
+

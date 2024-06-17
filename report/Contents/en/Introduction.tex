@@ -1,0 +1,44 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% $Author: Raunak Shahare $
+% $Datum: 2023-04-24  $
+% $Pfad: BA23-02-Sales-Predictor/report/Contents/en/Introduction.tex $
+% $Version: 1.0 $
+% $Reviewed by: Deepti, Sadegh and Raunak $
+% $Review Date: 2023-05-05 $
+%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}
+
+In the current era of the internet, an enormous amount of data is being generated, making it difficult for humans to process it all. To address this issue, various machine learning techniques have been developed. This report aims to predict the sales of a retail store using different machine learning algorithms and determine the most suitable one for the given problem statement. The study involved applying both traditional regression techniques and boosting algorithms, and the results indicated that the boosting algorithms outperformed the regular regression techniques.\cite{Krishna:2018}
+
+\medskip
+
+\section{Problem Description}
+
+The purpose of this project is to make predictions about the sales of products based on several factors such as the stores, items, transactions, as well as other variables that are dependent on holidays and oil prices. This report focuses on the topic of sales forecasting, with the specific research problem of accurately predicting the sales volume of different items in various grocery stores operated by Corporación Favorita, a large Ecuadorian-based grocery retailer that offers over 200,000 different products across hundreds of supermarkets. The problem is complicated by factors such as new store locations, evolving seasonal tastes, and unpredictable product marketing, requiring machine learning to consider multiple features and associations. 
+
+To address common inventory problems in grocery stores, such as overstocking and inadequate stock for customers, different prediction models were studied based on the aforementioned problem. The data set includes information on 54 retailers, and the time series starts from January 1, 2013, and concludes on August 15, 2017. The task is to forecast future sales for approximately six to twelve months beyond the most recent available date. Various models and tools will be evaluated to determine which one fits the data best and provides the most precise predictions.
+
+\medskip
+
+\section{Challenges}
+
+Sales can be considered as a time series. At present time, different time series models have been developed, for example, by Holt-Winters, \ac{ARIMA}, \ac{SARIMA}, \ac{SARIMAX}, \ac{GARCH}, etc. However, there are some challenges of time series approaches for sales forecasting. Here are few:
+	\begin{itemize}
+		\item To capture seasonality, it is important to have a lengthy historical record of data. However, in cases where a new product is introduced, we may not have historical data for the target variable. In such situations, we can rely on sales time series of a similar product and expect a similar sales pattern for the new product. 
+		\item Sales data may contain numerous outliers and missing data, which need to be addressed by removing outliers and interpolating data before applying a time series analysis. 
+		\item We must consider various external factors that can have an impact on sales.\cite{Pavlyshenko:2019}
+	\end{itemize}
+
+
+
+ \medskip
+
+\section{Solution}
+
+The task of predicting sales is better approached as a regression problem rather than a time series problem. In fact, using regression techniques has proven to provide superior results than time series methods. The application of machine learning algorithms can help identify patterns within time series data, including complex patterns within sales trends. Supervised machine learning methods, such as tree-based algorithms like Random Forest and Gradient Boosting Machine, are particularly popular for this purpose.
+
+Regression methods rely on the assumption that past patterns in data will continue into the future. Sales data displays various patterns and effects, such as trends, seasonality, autocorrelation, and patterns caused by external factors like promotions, pricing, and competitor behavior. Noise, which arises from factors not considered, is also present in sales data. Outliers, extreme values in data, are observed and should be considered in risk assessment. These outliers may be caused by events like promotional events, price reductions, and weather conditions. If these events occur periodically, a new feature can be added to indicate these special events and describe extreme values in the target variable. \cite{Pavlyshenko:2019} 
+
